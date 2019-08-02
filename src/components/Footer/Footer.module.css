@@ -1,0 +1,54 @@
+/* Desktop and Tablet Specific Stylings */
+@media only screen and (min-width: 350px) {
+  footer {
+    position: fixed;
+    margin-bottom: 0.5%;
+    height: 25px;
+    width: 100%;
+    font-size: 0.7em;
+    bottom: 0;
+  }
+
+  .socialWrapper {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .socialIcon{
+    margin: 0px 5px;
+	  width: 25px;
+	  height: 25px;
+  }
+
+  .copyright {
+    float: left;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 1em;
+  }
+}
+
+/* Mobile Stylings */
+@media only screen and (max-width: 349px) {
+  footer {
+    position: fixed;
+    margin-bottom: 0.5%;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    bottom: 0;
+  }
+
+  .socialIcon{
+    margin: 0px 5px;
+	  width: 20px;
+	  height: 20px;
+  }
+
+  .copyright {
+    line-height: 13px;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+}
