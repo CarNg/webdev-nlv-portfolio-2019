@@ -33,3 +33,30 @@ body {
 #root {
   min-height: 100%;
 }
+
+.button {
+  display: inline-block;
+  border: 1.5px solid var(--nlv-red);
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  color: var(--nlv-white);
+  text-transform: uppercase;
+}
+
+.button:hover {
+  border: 1.5px solid var(--nlv-cyan);
+}
+
+a{
+  color: var(--nlv-white);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration-line: underline;
+  text-decoration-color: var(--nlv-cyan);
+}

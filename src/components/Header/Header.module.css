@@ -16,10 +16,6 @@ header {
   letter-spacing: 0.15em;
 }
 
-.headerContainer > a:hover {
-  color: var(--nlv-cyan);
-}
-
 .headerContainer > a:before {
   content: "";
   position: absolute;

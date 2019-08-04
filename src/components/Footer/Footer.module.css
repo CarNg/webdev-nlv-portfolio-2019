@@ -12,15 +12,7 @@ footer {
 }
 
 footer > a{
-  color: var(--nlv-white);
-  text-decoration: none;
   margin-right: 5px;
-}
-
-footer > a:hover{
-  color: var(--nlv-cyan);
-  text-decoration-line: underline;
-  text-decoration-color: var(--nlv-cyan);
 }
 
 @media only screen and (min-width: 350px) {

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import style from './Welcome.module.css';
 
 export default function Welcome() {
@@ -11,10 +10,10 @@ export default function Welcome() {
                     <h3>Web Developer/Game Designer</h3>
                     <h5>Originally based in Ireland, now based in Hong Kong. Orginally a web designer, now a web developer.</h5>
                 </div>
-                <div className={style.button}>
+                <div className={[style.button, "button"].join(' ')}>
                     view projects
                 </div>
-                <div className={style.button} style={{marginLeft: "0px"}}>
+                <div className={[style.button, "button"].join(' ')} style={{marginLeft: "0px"}}>
                     download resume
                 </div>
             </div>
