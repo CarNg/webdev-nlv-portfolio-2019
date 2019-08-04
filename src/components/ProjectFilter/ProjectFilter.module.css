@@ -1,0 +1,17 @@
+#filterWrapper {
+    height: 35px;
+    width: 100%;
+    padding: 15px 15px 15px 0px;
+    color: var(--nlv-white);
+}
+
+.filterLink{
+    margin: 0px 20px 0px 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+    display: inline-block;
+}
