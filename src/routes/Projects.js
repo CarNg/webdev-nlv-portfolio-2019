@@ -15,6 +15,6 @@ export default function Projects() {
 const wrapper = {
     height: "calc(100% - 140px)",
     position: "relative",
-    width: "calc(100% - 60px)",
-    padding: "30px",
+    width: "calc(84% - 60px)",
+    padding: "40px 8%",
 }

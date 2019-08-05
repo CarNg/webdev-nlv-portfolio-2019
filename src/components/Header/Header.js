@@ -9,7 +9,7 @@ function Header() {
   	return (
 		<header>
 			<div className={style.headerContainer}>
-				<img className={style.logo} src={logo} alt="Night Light Visuals Logo"/>
+				<Link to ="/"><img className={style.logo} src={logo} alt="Night Light Visuals Logo"/></Link>
 				<Link to="contact" className={style.headerLink}>Contact</Link>
 				<Link to="projects" className={style.headerLink}>Projects</Link>
 				<Link to="about" className={style.headerLink}>About</Link>
