@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Welcome.module.css';
 import {Link} from 'react-router-dom'
+import resume from '../../assets/files/CarmenNgResume.pdf'
 
 export default function Welcome() {
     return (
@@ -17,8 +18,9 @@ export default function Welcome() {
                     </div>
                 </Link>
                 <div className={[style.button, "button"].join(' ')} style={{marginLeft: "0px"}}>
-                    download resume
+                    <a href={resume} target="_blank" rel="noopener noreferrer">view resume</a>
                 </div>
+
             </div>
         </div>
     )
