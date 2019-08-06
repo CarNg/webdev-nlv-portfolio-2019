@@ -1,29 +1,131 @@
 [
     {
-        "id": "1",
+        "id": "201908",
         "background": {
             "backgroundColor": "transparent"
         },
-        "title": "This Time Around",
-        "role": "Game Designer/Developer",
-        "type": "Digital Game"
+        "title": "Night Light Visuals",
+        "role": "Web Designer & Developer",
+        "type": "Web",
+        "intro": "This is a short and sweet introduction sentence to this project",
+        "details": "- React.js",
+        "github": "https://gooogle.com"
     },
     {
-        "id": "2",
+        "id": "201704",
         "background": {
             "backgroundColor": "transparent"
         },
-        "title": "SuSweet",
+        "title": "RT-Tech",
+        "role": "Web Desginer & Developer",
+        "type": "Web"
+    },
+    {
+        "id": "201703",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "BabyPOS Web Platform",
         "role": "Web Developer",
         "type": "Web"
     },
     {
-        "id": "3",
+        "id": "201702",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Sales Commission Web App",
+        "role": "Web Developer",
+        "type": "Web"
+    },
+    {
+        "id": "201606",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Susweet",
+        "role": "Web Developer",
+        "type": "Web"
+    },
+    {
+        "id": "201605",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "谷日 Group81",
+        "role": "Web Developer",
+        "type": "Web"
+    },
+    {
+        "id": "201502",
         "background": {
             "backgroundColor": "transparent"
         },
         "title": "Anything But Small Talk",
         "role": "Game Designer",
         "type": "Analog Game"
-    }
+    },
+    {
+        "id": "201501",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Night Light Visuals (2015)",
+        "role": "Web Designer & Developer",
+        "type": "Web"
+    },
+    {
+        "id": "201412",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Sketch",
+        "role": "Game Designer & Developer",
+        "type": "Digital Game"
+    },
+    {
+        "id": "201411",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "This Time Around",
+        "role": "Game Designer & Developer",
+        "type": "Digital Game"
+    },
+    {
+        "id": "201410",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Arcade ft. Turntable",
+        "role": "Game Designer & Developer",
+        "type": "Digital Game"
+    },
+    {
+        "id": "201409",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Circuits",
+        "role": "Game Designer",
+        "type": "Analog Game"
+    },
+    {
+        "id": "201408",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Hopscotch 2.0",
+        "role": "Game Designer",
+        "type": "Analog Game"
+    },
+    {
+        "id": "201407",
+        "background": {
+            "backgroundColor": "transparent"
+        },
+        "title": "Pigeon Invasion",
+        "role": "Game Designer & Developer",
+        "type": "Digital Game"
+    }    
 ]

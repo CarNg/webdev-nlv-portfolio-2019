@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 //Components
 import ProjectBriefs from '../components/ProjectBriefs/ProjectBriefs';
 import ProjectFilter from '../components/ProjectFilter/ProjectFilter';
@@ -16,5 +17,5 @@ const wrapper = {
     height: "calc(100% - 140px)",
     position: "relative",
     width: "calc(84% - 60px)",
-    padding: "40px 8%",
+    padding: "40px 8%"
 }
