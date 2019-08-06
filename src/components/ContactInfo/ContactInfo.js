@@ -71,6 +71,9 @@ export default function ContactInfo() {
                     </a>
                 </div>
             </div>
+            <div className={style.socialRow}>
+                Based in Hong Kong
+            </div>
         </div>
     )
 }
