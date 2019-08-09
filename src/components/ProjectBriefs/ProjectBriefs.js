@@ -15,12 +15,29 @@ export default function ProjectBrief(props) {
 
         let details = "";
         if(project.type === "Digital Game"){
-            details = "Engine";
+            details = "Platform";
         }
-        else if (project.type === "Analog Game") {
-            details = "Gameplay";
-        }else{
-            details = /\s/.test(project.details) ? "Language(s)" : "Language";
+        else if (project.type === "Web") {
+            details = project.details.indexOf("\n") > -1 ? "Frameworks/Languages" : "Framework/Language";
+        }
+        else{
+            details = "";
+        }
+
+        let externalLink;
+        if(project.link){
+            if(project.link.includes("github")){
+                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
+            }
+            else if(project.link.includes("itch")){
+                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
+            }
+            else{
+                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
+            }
+        }
+        else {
+            externalLink = null;
         }
 
         return (
@@ -31,15 +48,15 @@ export default function ProjectBrief(props) {
                     <div className={style.blurb}>
                         <p>{project.intro}</p>
                         <p>
-                            <span style={{lineHeight:"2rem"}}>{details}</span>
-                            <br/>{project.details}
+                            {details === "" ? null : <span style={{lineHeight:"2rem"}}>{details}<br/></span>}
+                            {project.details}
                         </p>
-                        {project.github ? <a href={project.github}>&rsaquo; View Github &lsaquo;</a> : null}
                     </div>
                     <div className={style.readMore}>
                         <div className={[style.button, "button"].join(' ')}>
-                            Read More
+                            See More
                         </div>
+                        {externalLink}
                     </div>
                 </div>
             </div>
