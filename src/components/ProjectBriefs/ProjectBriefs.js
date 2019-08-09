@@ -27,13 +27,13 @@ export default function ProjectBrief(props) {
         let externalLink;
         if(project.link){
             if(project.link.includes("github")){
-                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
+                externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
             }
             else if(project.link.includes("itch")){
-                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
+                externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
             }
             else{
-                externalLink = <a href={project.link} target="_blank"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
+                externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
             }
         }
         else {
