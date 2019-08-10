@@ -1,0 +1,26 @@
+#profileWrapper{
+    width: 100%;
+    margin: 20px auto;
+}
+
+#profile img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+#profileText{
+    width: calc(85% - 40px);
+    color: var(--nlv-white);
+    font: 1.2rem 'Dosis';
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+#profile {
+    width: 100%;
+    display: block;
+}
