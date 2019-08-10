@@ -1,0 +1,26 @@
+[
+    {   
+        "id": "1",
+        "person": "Elaine Reynolds",
+        "position": "CEO",
+        "company": "Simteractive Ltd.",
+        "link": "https://simteractive.com/",
+        "quote": "(Carmen) was absolutely brilliant to work with and demonstrated her intelligence, work ethic, attention to detail, creativity, willingness to learn, writing ability and analytical skills. I wouldn't hesitate to recommend Carmen in a game development role or, indeed, in a role in any other area she decides to go into."
+    },
+    {
+        "id": "2",
+        "person": "David Reilly",
+        "position": "Gameplay Programmer",
+        "company": "Simteractive Ltd.",
+        "link": "https://simteractive.com/",
+        "quote": "I found (Carmen) a joy to work with it, her attention to detail, great work ethic and excellent communication skills meant it was a breeze for me to understand her designs and implement them with a clear understanding of what Carmen wanted. I believe Carmen is a great asset for any company and wouldn't hesitate to recommend her."
+    },
+    {
+        "id": "3",
+        "person": "Raymond Tse",
+        "position": "CEO",
+        "company": "RT-Technology",
+        "link": "https://babypos.hk/",
+        "quote": "Carmen is very detail oriented and dedicated to providing quality work as she is passionate about writing code, solving clients' problems and works hard to give clients exactly what they are looking for. She is friendly, easy to get along with, well-liked by our clients and respected by her co-workers."
+    }
+]
