@@ -25,26 +25,10 @@
     color: var(--nlv-white);
   }
 
-  h3 {
-    font-weight: 500;
-    font-size: 3.6rem;
-    letter-spacing: 1.3px;
-    margin-bottom: 0px;
-    color: var(--nlv-cyan);
-    margin-left: 5px;
-  }
-
-  h5 {
-    color: var(--nlv-gray);
-    font-weight: normal;
-    font-size: 1.5em;
-    margin: 10px 0px 0px 0px;
-  }
-
   .button {
-    padding: 0.8rem 1.3rem;
-    margin: 45px 30px;
-    font-size: 1.3em;
+    padding: 0.9rem 0.9rem 0.8rem 1rem; 
+    margin: 30px;
+    font-size: 1.2em;
     font-weight: 500;
     letter-spacing: 0.15em;
   }

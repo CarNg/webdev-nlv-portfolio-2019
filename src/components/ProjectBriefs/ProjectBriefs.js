@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../ProjectBriefs/ProjectBriefs.module.css'
-import ProjectList from '../ProjectBriefs/ProjectList.json'
+import ProjectList from '../../assets/data/ProjectList.json'
 
 export default function ProjectBrief(props) {
 
@@ -39,6 +39,7 @@ export default function ProjectBrief(props) {
         else {
             externalLink = null;
         }
+
 
         return (
             <div key={project.id} className={style.projectBrief} style={project.background}>

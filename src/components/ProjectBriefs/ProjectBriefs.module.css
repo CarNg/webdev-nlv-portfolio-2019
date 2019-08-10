@@ -4,6 +4,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    max-height: 600px;
 }
 
 #scrollWrapper::-webkit-scrollbar {
@@ -107,7 +108,7 @@
 .blurb {
     color: var(--nlv-white);
     white-space: pre-wrap;
-    margin-top: calc(50% - 20px);
+    margin-top: calc(45% - 20px);
     font-size: 1.2rem;
     padding: 0px 20px;
 }

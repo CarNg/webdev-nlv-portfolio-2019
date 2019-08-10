@@ -1,1 +1,0 @@
-Simplifica - https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free
