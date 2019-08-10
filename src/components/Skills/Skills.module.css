@@ -1,0 +1,95 @@
+#skillsWrapper{
+    width: 85%;
+    margin: 0px auto;
+    display: block;
+}
+
+.skillList{
+    list-style-type: none;
+    padding: 0px 10px;
+    display: inline-block;
+    width: calc(50% - 20px);
+}
+
+.skillList li{
+    color: var(--nlv-black);
+    margin-bottom: 13px;
+    background: var(--nlv-white);
+    height: 25px;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+}
+
+.skillList li em{
+    position: relative;
+    left: 7px;
+    top: 2px;
+    font-size: 1rem;
+    z-index: 2;
+    font-family: 'Dosis';
+    font-weight: 600;
+}
+
+.expand {
+    height: 25px;
+    margin: 0px;
+    left: -1px;
+    background: var(--nlv-cyan);
+    border-radius: 3px;
+    position: absolute;
+}
+
+.html5 {
+    animation: html5 2s ease-in-out 0.1s forwards;
+}
+
+@keyframes html5 {
+    0% {width: 0%}
+    100% {width: 95%}
+}
+
+.css3 {
+    animation: css3 2s ease-in-out 0.1s forwards;
+}
+
+@keyframes css3 {
+    0% {width: 0%}
+    100% {width: 95%}
+}
+
+.javascript  {
+    animation: javascript  2s ease-in-out 0.1s forwards;
+}
+
+@keyframes javascript {
+    0% {width: 0%}
+    100% {width: 75%}
+}
+
+.reactjs {
+    animation: reactjs 2s ease-in-out 0.1s forwards;
+}
+
+@keyframes reactjs {
+    0% {width: 0%}
+    100% {width: 65%}
+}
+
+.jquery {
+    animation: jquery 2s ease-in-out 0.1s forwards;
+}
+
+@keyframes jquery {
+    0% {width: 0%}
+    100% {width: 80%}
+}
+
+.bootstrap {
+    animation: bootstrap 2s ease-in-out 0.1s forwards;
+}
+
+@keyframes bootstrap {
+    0% {width: 0%}
+    100% {width: 85%}
+}

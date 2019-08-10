@@ -1,0 +1,25 @@
+#wrapper {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: var(--nlv-white);
+    display: block;
+    margin: 0 auto;
+}
+
+.reference{
+    width: 70%;
+    height: fit-content;
+    display: block;
+    margin: 0 auto;   
+    font-size: 1.2rem;
+    font-family: 'Dosis';
+}
+
+.referenceImage {
+    height: 70px;
+    width: 140px;
+    background-color: white;
+    margin: 10px auto;
+    display: block;
+}
