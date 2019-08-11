@@ -1,57 +1,36 @@
 .wrapper{
-    text-align: center;
-    width: 480px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 50%;
+    display: block;
+    width: 500px;
+    margin: 0px auto;
 }
 
 .socialRow {
-    display: block;
-    margin: 20px auto;
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    font-size: 2rem;
-    line-height: 3rem;
     color: var(--nlv-white);
+    display: table;
+    width: 500px;
+    table-layout: fixed;
+    padding: 20px 0px;
 }
 
-.socialIcon {
-    display: inline-block;
-    margin: 0px 10px;
-    width: 50px;
-    height: 50px;
+.socialRow > a {
+    display: table-cell;
+    padding: 3px 5px;
     border: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     box-sizing: border-box;
-    padding: 5px;
-    border: 1px solid transparent;
-}
-
-.socialIcon:hover {  
-    border: 1px solid var(--nlv-red);
-}
-
-.socialIcon > a > img {
-    width: 100%;
-}
-
-.emailRow {
-    height: 40px;
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-    transition: all 0.3s ease-in-out;
-    padding: 10px;
-    border: 1px solid transparent;
-}
-
-.emailRow:hover {
-    border: 1px solid var(--nlv-red);
+    border: 1.3px solid var(--nlv-cyan);
+    transform: rotate(-45deg);
 }
 
 .socialRow > a:hover {
-    text-decoration: none;
+    border: 1.3px solid var(--nlv-red);
+}
+
+.socialIcon > img {
+    width: 100%;
+    transform: rotate(45deg)
+    scale(0.85);
+    padding-left: 2px;
+    padding-top: 2px;
 }

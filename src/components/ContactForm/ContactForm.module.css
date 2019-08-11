@@ -1,37 +1,39 @@
 .wrapper{
-    text-align: right;
-    width: 465px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: fit-content;
+    text-align: center;
+    width: 450px;
+    margin: 0px auto;
 }
 
-#title {
+.emailRow {
+    font-size: 1.2rem;
+    font-family: 'Dosis';
     color: var(--nlv-white);
+    margin-bottom: 35px;
+}
+
+#email{
     font-size: 2rem;
-    float: left;
-    font-weight: 500;
-    letter-spacing: 1.5px;
+    color: var(--nlv-cyan);
+    line-height: 2.5rem;
 }
 
 .formInput{
     background-color: transparent;
     display: block;
-    margin: 20px 0px;
+    margin: 20px auto;
     width: 450px;
     box-shadow: none;
     border: none;
-    border-bottom: 2px solid var(--nlv-cyan);
+    border-bottom: 2px solid var(--nlv-red);
     font: normal 1rem 'Segoe UI';
     color: var(--nlv-white);
     text-transform: capitalize;
-    padding: 8px;
+    padding: 8px 0px;
 }
 
 .formInput:focus{
     outline: none;
-    border-bottom: 2px solid var(--nlv-red);
+    border-bottom: 2px solid var(--nlv-cyan);
 }
 
 
@@ -47,3 +49,5 @@
     font-weight: 500;
     letter-spacing: 0.15em;
   }
+
+  
