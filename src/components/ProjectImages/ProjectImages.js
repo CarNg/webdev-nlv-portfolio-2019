@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function ProjectImages() {
+export default function ProjectImages(props) {
     const settings = {
         dots: true,
         autoplaySpeed: 5000,
@@ -13,24 +13,27 @@ export default function ProjectImages() {
         slidesToScroll: 1,
         autoplay: true,
         centerMode: true
-     };
+    };
+
+    let imageObject = props.projectImages;
+    
+    var imageArray = Object.keys(imageObject).map(function(key) {
+        return [key, imageObject[key]];
+    });
+
+    const slideshow = imageArray.map((image, index) => {
+        return (
+            <div key={index}>
+                <img src={image[1]} alt={image[0]}/>                
+            </div>
+        )
+    });    
 
     return (
         <div id={style.wrapper}>
             <div className={style.images}>
                 <Slider {...settings}>
-                    <div>
-                        <img src="http://placekitten.com/g/400/200" />
-                    </div>
-                    <div>
-                        <img src="http://placekitten.com/g/400/200" />
-                    </div>
-                    <div>
-                        <img src="http://placekitten.com/g/400/200" />
-                    </div>
-                    <div>
-                        <img src="http://placekitten.com/g/400/200" />
-                    </div>
+                    {slideshow}
                 </Slider>
             </div>
         </div>

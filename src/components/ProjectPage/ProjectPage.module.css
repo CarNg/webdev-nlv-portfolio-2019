@@ -1,32 +1,33 @@
-#wrapper {
+.wrapper {
     background-color: var(--nlv-white);
     height: 100%;
     text-align: center;
     overflow: auto;
 }
 
-#wrapper::-webkit-scrollbar {
+.wrapper::-webkit-scrollbar {
     width: 8px;
   }
   
-  #wrapper::-webkit-scrollbar-track {
+.wrapper::-webkit-scrollbar-track {
     background: var(--nlv-gray); 
     border-radius: 3px;
 }
    
-  #wrapper::-webkit-scrollbar-thumb {
+.wrapper::-webkit-scrollbar-thumb {
     background: var(--nlv-cyan); 
     border-radius: 3px;
-  }
+}
   
-  #wrapper::-webkit-scrollbar-thumb:hover {
+.wrapper::-webkit-scrollbar-thumb:hover {
     background: var(--nlv-cyan); 
-  }
+}
 
 #infoWrapper {
   background-color: var(--nlv-black);
   width: calc(100% - 160px);
-  padding: 80px;
+  height: fit-content;
+  padding: 40px 80px;
 }
 
 #projectTitle {
@@ -38,7 +39,7 @@
 }
 
 #projectSubtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: block;
     color: var(--nlv-cyan);
     font-style: italic;

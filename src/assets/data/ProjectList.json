@@ -7,7 +7,12 @@
         "type": "Web",
         "intro": "You're looking at it right now! A personal portfolio website for web development and game design projects. Redesigned and built on ReactJS in August 2019.",
         "details": "- ReactJS",
-        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2019"
+        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2019",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201704",
@@ -17,7 +22,12 @@
         "type": "Web",
         "intro": "A simple responsive landing page desgined and developed for RT-Technology to link to the company's various products and websites.",
         "details": "- HTML5 \n- CSS3",
-        "link": "https://github.com/CarNg/rt-tech"
+        "link": "https://github.com/CarNg/rt-tech",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201703",
@@ -26,7 +36,12 @@
         "role": "Web Developer",
         "type": "Web",
         "intro": "A web platform to accompany the BabyPOS POS system where establishments can log in and view live updates on their businesses.",
-        "details": "- PHP \n- Bootstrap \n- jQuery \n- MySQL"
+        "details": "- PHP \n- Bootstrap \n- jQuery \n- MySQL",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201702",
@@ -36,7 +51,12 @@
         "type": "Web",
         "intro": "A simple sales web app for sales teams to track monthly sales, quotas and calculate commission.",
         "details": "- AngularJS \n- PHP \n- MySQL",
-        "link": "https://github.com/CarNg/sales-web-app"
+        "link": "https://github.com/CarNg/sales-web-app",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201606",
@@ -45,7 +65,12 @@
         "role": "Web Developer",
         "type": "Web",
         "intro": "An OpenCart page setup and customised for SuSweet.",
-        "details": "- Opencart \n - PHP \n- CSS3"
+        "details": "- Opencart \n - PHP \n- CSS3",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201504",
@@ -55,7 +80,12 @@
         "type": "Digital Game",
         "intro": "Eden Isle: Resort Paradise is a multi-award winning quirky game for iOS that lets players build and manage a holiday resort, working towards a five star resort rating.",
         "details": "- iOS",
-        "link": "https://www.edenislegame.com/"
+        "link": "https://www.edenislegame.com/",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201502",
@@ -64,7 +94,12 @@
         "role": "Game Designer",
         "type": "Analog Game",
         "intro": "This little card game based on the themes of memory, misdirection and conversation is the first game I designed solo and it's a personal favourite!",
-        "details": "- Storytelling Card Game \n- 4+ Players \n- ~15mins Per Player"
+        "details": "- Storytelling Card Game \n- 4+ Players \n- ~15mins Per Player",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201501",
@@ -74,7 +109,12 @@
         "type": "Web",
         "intro": "An older version of Night Light Visuals portfolio site first designed and developed in 2015.",
         "details": "- HTML5 \n- CSS3 \n- JavaScript \n-jQuery",
-        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015"
+        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201412",
@@ -84,7 +124,12 @@
         "type": "Digital Game",
         "intro": "Sketch! is a small 2D game where your goal is to woo the girl - but don't get caught! Fill the swoon meter and get the girl before you get detention.",
         "details": "- Orignally built for Unity Webplayer, currently being converted to WegGL \n *Playable link coming soon!",
-        "link": "https://github.com/CarNg/game-sketch-prototype"
+        "link": "https://github.com/CarNg/game-sketch-prototype",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201411",
@@ -94,7 +139,12 @@
         "type": "Digital Game",
         "intro": "This Time Around is an interactive story/exploration game based on the themes of forgiveness and memories. Follow along Rachel Daniels' journey as she grows from an adolescent to an adult.",
         "details": "- Windows \n- MacOS",
-        "link": "https://nightlightvisuals.itch.io/thistimearound"
+        "link": "https://nightlightvisuals.itch.io/thistimearound",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201410",
@@ -104,7 +154,12 @@
         "type": "Digital Game",
         "intro": "Arcade is a small Unity scene developed to demonstrate a number of skills; such as Mecanim animation, AI behaviour, GUI implementation and saving/loading. Arcade also features a physics mini-game called Turntable.",
         "details": "- Orignally built for Unity Webplayer, currently being converted to WegGL \n *Playable link coming soon!",
-        "link": "https://github.com/CarNg/game-arcade"
+        "link": "https://github.com/CarNg/game-arcade",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201409",
@@ -113,7 +168,12 @@
         "role": "Game Designer",
         "type": "Analog Game",
         "intro": "Circuits is an exciting and unique 3D abstract puzzle game that challenges players' spatial awareness. Build circuits from all angles, compete with players to be the first to reach your goal, and block any threats you see coming!",
-        "details": "Abstract 3D Puzzle Game \n- 2-4 Players \n- ~20mins"
+        "details": "Abstract 3D Puzzle Game \n- 2-4 Players \n- ~20mins",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201408",
@@ -122,7 +182,12 @@
         "role": "Game Designer",
         "type": "Analog Game",
         "intro": "Hopscotch 2: Elements is an 'unnecessary sequel' designed as part of a ludology class. The task was to find a game that is over 50 years old, determine the weak points and find solutions to create a stronger game.",
-        "details": "Dexterity Game \n- 2-4 Players \n- ~15mins"
+        "details": "Dexterity Game \n- 2-4 Players \n- ~15mins",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     },
     {
         "id": "201407",
@@ -132,6 +197,11 @@
         "type": "Digital Game",
         "intro": "Pigeon Invasion is a casual mobile game that was released on the App Store back in 2014. The game design was based on the classic 80's action game 'Choplifter' and was developed using GameSalad.",
         "details": "- iOS",
-        "link": "https://appadvice.com/app/pigeon-invasion/817549884"
+        "link": "https://appadvice.com/app/pigeon-invasion/817549884",
+        "images":{
+            "image1": "/images/briefNlv.png",
+            "image2": "/images/briefNlv.png"
+        },
+        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
     }    
 ]

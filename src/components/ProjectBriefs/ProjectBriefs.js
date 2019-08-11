@@ -4,22 +4,30 @@ import ProjectList from '../../assets/data/ProjectList.json'
 import Modal from 'react-awesome-modal';
 import ProjectPage from '../ProjectPage/ProjectPage';
 
-
 export default class ProjectBriefs extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            visible : true
+            visible : false,
+            projectImages: [],
+            projectTitle: "",
+            projectRole: "",
+            projectDetails: ""
         }
     }
 
-    openModal(projectTitle) {
+    openModal(projectImages, projectTitle, projectRole, projectDetails) {
         this.setState({
-            visible : true
+            visible : true,
+            projectImages: projectImages,
+            projectTitle: projectTitle,
+            projectRole: projectRole,
+            projectDetails: projectDetails
         });
     }
 
     closeModal() {
+        document.getElementById("projectModalScroll").scrollTop = 0;
         this.setState({
             visible : false
         });
@@ -62,7 +70,6 @@ export default class ProjectBriefs extends Component {
                 externalLink = null;
             }
     
-    
             return (
                 <div key={project.id} className={style.projectBrief}>
                     <div style={project.background} className={style.background} />
@@ -78,7 +85,9 @@ export default class ProjectBriefs extends Component {
                             </p>
                         </div>
                         <div className={style.readMore}>
-                            <div className={[style.button, "button"].join(' ')}  onClick={() => this.openModal(project.title)} >
+                            <div className={[style.button, "button"].join(' ')}  onClick={() => (
+                                this.openModal(project.images, project.title, project.role, project.projectDetails)
+                            )} >
                                 See More
                             </div>
                             {externalLink}
@@ -91,13 +100,14 @@ export default class ProjectBriefs extends Component {
         return (
             <React.Fragment>
                 <Modal 
+                    id="projectModal"
                     visible={this.state.visible}
                     width="75%"
                     height="75%"
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >
-                    <ProjectPage/>
+                    <ProjectPage projectTitle={this.state.projectTitle} projectRole={this.state.projectRole} projectDetails={this.state.projectDetails} projectImages={this.state.projectImages}/>
                 </Modal>
                 <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
                     {projects}        

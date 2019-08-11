@@ -92,3 +92,8 @@ h5 {
   font-size: 1.5em;
   margin: 10px 0px 0px 0px;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--nlv-black) !important;
+}
