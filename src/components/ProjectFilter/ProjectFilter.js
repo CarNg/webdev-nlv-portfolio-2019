@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import style from '../ProjectFilter/ProjectFilter.module.css';
-import { throwStatement } from '@babel/types';
 
 export default class ProjectFilter extends Component {
     constructor(props){

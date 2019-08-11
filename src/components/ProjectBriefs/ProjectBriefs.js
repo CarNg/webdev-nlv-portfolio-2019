@@ -14,6 +14,7 @@ export default class ProjectBriefs extends Component {
             projectRole: "",
             projectDetails: ""
         }
+        this.closeModal = this.closeModal.bind(this);
     }
 
     openModal(projectImages, projectTitle, projectRole, projectDetails) {
@@ -112,7 +113,7 @@ export default class ProjectBriefs extends Component {
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >
-                    <ProjectPage projectTitle={this.state.projectTitle} projectRole={this.state.projectRole} projectDetails={this.state.projectDetails} projectImages={this.state.projectImages}/>
+                    <ProjectPage projectTitle={this.state.projectTitle} projectRole={this.state.projectRole} projectDetails={this.state.projectDetails} projectImages={this.state.projectImages} onCloseClick={this.closeModal}/>
                 </Modal>
                 <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
                     {projects}        
