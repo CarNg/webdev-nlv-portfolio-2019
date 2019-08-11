@@ -36,15 +36,15 @@ export default class ProjectBriefs extends Component {
     render(){
         const projects = ProjectList.map((project) =>{
             let colorCode = style.cyan;
-            if(project.type === "Digital Game"){
+            if(project.type === "Digital"){
                 colorCode = style.red;
             }
-            else if (project.type === "Analog Game") {
+            else if (project.type === "Analog") {
                 colorCode = style.white;
             }
     
             let details = "";
-            if(project.type === "Digital Game"){
+            if(project.type === "Digital"){
                 details = "Platform";
             }
             else if (project.type === "Web") {
@@ -69,8 +69,11 @@ export default class ProjectBriefs extends Component {
             else {
                 externalLink = null;
             }
-    
-            return (
+
+            let projectBrief = null;
+
+            if(this.props.filter === "" || this.props.filter === project.type){
+                projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
                     <div style={project.background} className={style.background} />
 
@@ -93,8 +96,10 @@ export default class ProjectBriefs extends Component {
                             {externalLink}
                         </div>
                     </div>
-                </div>
-            )
+                </div>;
+            }
+    
+            return projectBrief;
         });
 
         return (
