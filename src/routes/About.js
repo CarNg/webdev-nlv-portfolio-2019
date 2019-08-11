@@ -11,12 +11,16 @@ export default function About() {
             <Profile/>
             <Skills/>
             <div style={buttonWrapper}>
-                <div style={button} className="button">
-                    <a href={resume} target="_blank" rel="noopener noreferrer">view resume</a>
-                </div>
-                <div style={button} className="button">
-                    <Link to="/contact">let's talk</Link>
-                </div>
+                <a href={resume} target="_blank" rel="noopener noreferrer">
+                    <div style={button} className="button">
+                        view resume
+                    </div>
+                </a>
+                <Link to="/contact">
+                    <div style={button} className="button">
+                        let's talk
+                    </div>
+                </Link>
             </div>
         </div>
     )

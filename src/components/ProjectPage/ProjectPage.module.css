@@ -1,0 +1,51 @@
+#wrapper {
+    background-color: var(--nlv-white);
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+#wrapper::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #wrapper::-webkit-scrollbar-track {
+    background: var(--nlv-gray); 
+    border-radius: 3px;
+}
+   
+  #wrapper::-webkit-scrollbar-thumb {
+    background: var(--nlv-cyan); 
+    border-radius: 3px;
+  }
+  
+  #wrapper::-webkit-scrollbar-thumb:hover {
+    background: var(--nlv-cyan); 
+  }
+
+#infoWrapper {
+  background-color: var(--nlv-black);
+  width: calc(100% - 160px);
+  padding: 80px;
+}
+
+#projectTitle {
+    font-size: 2.5rem;
+    display: block;
+    font-weight: 600;
+    line-height: 3rem;
+    color: var(--nlv-red);
+}
+
+#projectSubtitle {
+    font-size: 1.5rem;
+    display: block;
+    color: var(--nlv-cyan);
+    font-style: italic;
+}
+
+#projectDetails {
+    color: var(--nlv-white);
+    font-size: 1.1rem;
+    font-family: 'Dosis';
+}

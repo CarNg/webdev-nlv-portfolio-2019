@@ -17,10 +17,11 @@ export default function Welcome() {
                         view projects
                     </div>
                 </Link>
-                <div className={[style.button, "button"].join(' ')} style={{marginLeft: "0px"}}>
-                    <a href={resume} target="_blank" rel="noopener noreferrer">view resume</a>
-                </div>
-
+                <a href={resume} target="_blank" rel="noopener noreferrer">
+                    <div className={[style.button, "button"].join(' ')} style={{marginLeft: "0px"}}>
+                        view resume
+                    </div>
+                </a>
             </div>
         </div>
     )
