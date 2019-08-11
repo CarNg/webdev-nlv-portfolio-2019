@@ -10,6 +10,15 @@ import socialGithub from '../../assets/images/socialGithub.png'
 export default function ContactInfo() {
     return (
         <div className={style.wrapper}>
+            <p id={style.title}>Got a question? Get in touch!</p>
+
+            <div className={style.emailRow}>
+                Shoot me an email at <br/>    
+                <a href="mailto:carmenng.media@gmail.com?Subject=Night%20Light%20Visuals" id={style.email}>
+                    carmenng.media@gmail.com
+                </a> <br/>
+            </div>
+
             <div className={style.socialRow}>
                 <div></div>
                 <a href="https://www.linkedin.com/in/carng">
