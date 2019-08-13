@@ -1,56 +1,79 @@
 .wrapper{
     display: block;
-    width: 500px;
+    width: 600px;
     margin: 0px auto;
 }
 
 #title{
     color: var(--nlv-white);
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 1.2px;
     margin-bottom: 20px;
 }
 
 .emailRow {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: 'Dosis';
     color: var(--nlv-white);
-    margin-bottom: 35px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
 }
 
 #email{
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--nlv-cyan);
-    line-height: 2.5rem;
+    line-height: 4rem;
+}
+
+#line{
+    border-top: 3px solid var(--nlv-red);
+    border-bottom: none;
+    border-right: 0px;
+    border-left: 0px;
+    width: 75%;
 }
 
 .socialRow {
     color: var(--nlv-white);
-    display: table;
     width: 500px;
-    table-layout: fixed;
-    padding: 20px 0px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    font-size: 1.5rem;
+    font-family: 'Dosis';
+    color: var(--nlv-white);
+    text-align: center;
+    line-height: 3.5rem;
 }
 
 .socialRow > a {
-    display: table-cell;
     padding: 3px 5px;
     border: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    box-sizing: border-box;
-    border: 1.3px solid var(--nlv-cyan);
-    transform: rotate(-45deg);
 }
 
-.socialRow > a:hover {
-    border: 1.3px solid var(--nlv-red);
+.socialRow > a:hover img {
+    transform: scale(1);
+}
+
+.socialIcon {
+    transition: all 0.3s ease-in-out;
+}
+
+.socialRow > a:hover .socialIcon {
+    border-bottom: 2px solid var(--nlv-cyan);
 }
 
 .socialIcon > img {
     width: 100%;
-    transform: rotate(45deg)
-    scale(0.85);
-    padding-left: 2px;
-    padding-top: 2px;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+.socialIcon{
+    width: 48px;
+    height: 48px;
+    margin: 0px 8px;
+    display: inline-block;
+    padding-bottom: 5px;
 }

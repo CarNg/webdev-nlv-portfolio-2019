@@ -19,26 +19,11 @@ export default function ContactInfo() {
                 </a> <br/>
             </div>
 
+            <hr id={style.line}/>
+
             <div className={style.socialRow}>
-                <div></div>
-                <a href="https://www.linkedin.com/in/carng">
-                    <div className={style.socialIcon}>
-                        <img
-                            alt="LinkedIn Icon"
-                            src={socialLinkedIn}
-                        />
-                    </div>
-                </a>
-                <div></div>
-                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA">
-                    <div className={style.socialIcon}>
-                        <img
-                            alt="Youtube Icon"
-                            src={socialYoutube}
-                        />  
-                    </div>
-                </a>
-                <div></div>
+                Follow along at <br/>    
+
                 <a href="https://github.com/CarNg/">
                     <div className={style.socialIcon}>
                         <img
@@ -47,7 +32,30 @@ export default function ContactInfo() {
                         />
                     </div>
                 </a>
-                <div></div>
+                <a href="https://nightlightvisuals.itch.io/">
+                    <div className={style.socialIcon}>
+                            <img
+                                alt="Itch.io Icon"
+                                src={socialItch}
+                            />
+                    </div>
+                </a>  
+                <a href="https://www.linkedin.com/in/carng">
+                    <div className={style.socialIcon}>
+                        <img
+                            alt="LinkedIn Icon"
+                            src={socialLinkedIn}
+                        />
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA">
+                    <div className={style.socialIcon}>
+                        <img
+                            alt="Youtube Icon"
+                            src={socialYoutube}
+                        />  
+                    </div>
+                </a>
                 <a href="https://society6.com/carmenng">
                     <div className={style.socialIcon}>
                         <img
@@ -56,16 +64,6 @@ export default function ContactInfo() {
                         />
                     </div>
                 </a>
-                <div></div>
-                <a href="https://nightlightvisuals.itch.io/">
-                    <div className={style.socialIcon}>
-                            <img
-                                alt="Itch.io Icon"
-                                src={socialItch}
-                            />
-                    </div>
-                </a>       
-                <div></div>         
             </div>
         </div>
     )
