@@ -5,43 +5,64 @@
         "title": "Night Light Visuals",
         "role": "Web Designer & Developer",
         "type": "Web",
-        "intro": "You're looking at it right now! A personal portfolio website for web development and game design projects. Redesigned and built on ReactJS in August 2019.",
-        "details": "- ReactJS",
+        "intro": "You're looking at it right now! A personal portfolio site for web and game projects I have and will work on. Completely revamped and redesigned in August 2019.",
         "link": "https://github.com/CarNg/webdev-nlv-portfolio-2019",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"ReactJS",
+            "for": "Night Light Visuals"
+        },
+        "projectDetails": {
+            "Summary":"A redesign was long overdue for Night Light Visuals so here it is. All web and game projects from now on will be hosted here so stay tuned as I continue to learn and grow my portfolio and resume.",
+            "Goal":"Create something that was much simpler, cleaner and more straight-forward. It also needed to be easily updatable. More importantly, it needed to be responsive!",
+            "Approach":"In order to create a simpler, cleaner look, text is kept to a minimum with key information only. Vertical scrolling was also avoided where possible. ReactJS was used to build the site to allow for easy updates for future projects."
+        }
     },
     {
         "id": "201704",
         "background": {"backgroundColor":"white"},
-        "title": "RT-Tech",
+        "title": "RT-Technology",
         "role": "Web Desginer & Developer",
         "type": "Web",
-        "intro": "A simple responsive landing page desgined and developed for RT-Technology to link to the company's various products and websites.",
-        "details": "- HTML5 \n- CSS3",
+        "intro": "A simple, responsive landing page designed to showcase the company's different services and websites from one location.",
         "link": "https://github.com/CarNg/rt-tech",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"HTML5 - CSS3",
+            "for": "RT-Technology Idea Ltd."
+        },
+        "projectDetails": {
+            "Summary":"RT-Technology Idea Ltd. provides a number of services, each with their own dedicated website, so it was important for the company to have just one location for potential clients to access information on these services.",
+            "Goal":"Create something clean, interactive and eye-catching.",
+            "Approach":"A minimalistic design was used to keep the page clean and the information clear. A single image was used per service and a simple on-hover animation using CSS3 was implemented for desktop users. For mobile users, a portrait version of the design was used."
+        }
     },
     {
         "id": "201703",
         "background": {"backgroundColor":"white"},
-        "title": "BabyPOS Web Platform",
+        "title": "BabyPOS Web Application",
         "role": "Web Developer",
         "type": "Web",
-        "intro": "A web platform to accompany the BabyPOS POS system where establishments can log in and view live updates on their businesses.",
-        "details": "- PHP \n- Bootstrap \n- jQuery \n- MySQL",
+        "intro": "A web application to accompany BabyPOS POS System where staff members and employers could access, review and update information on their POS system.",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"PHP - Bootstrap - jQuery - MySQL",
+            "for": "RT-Technology Idea Ltd."
+        },
+        "projectDetails": {
+            "Summary":"The web application which accompanied the BabyPOS POS System allowed users to review daily, weekly and monthly sales, view and edit product details and update stock information. Users could also view and edit staff members', shop members' and their vendors' information and records depending on the permissions set for individual accounts.",
+            "Goal":"Create a platform that was easy to use, understand and free of issues as it was going to be used by a large number of staff and employers with varying computing skills.",
+            "Approach":"Maintainance and enhancements were made on a regular basis to ensure that everything worked as smooth as possible and any unnecessary information was removed to reduce confusion. In unique cases, customised reports and features, such as a custom label generator, were also created for individual clients."
+        }
     },
     {
         "id": "201702",
@@ -49,14 +70,21 @@
         "title": "Sales Web App",
         "role": "Web Developer",
         "type": "Web",
-        "intro": "A simple sales web app for sales teams to track monthly sales, quotas and calculate commission.",
-        "details": "- AngularJS \n- PHP \n- MySQL",
+        "intro": "A simple web application built for sales teams to track monthly sales, quotas to be met and calculate commissions to be received.",
         "link": "https://github.com/CarNg/sales-web-app",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"AngularJS - PHP - MySQL",
+            "for": "RT-Technology Idea Ltd."
+        },
+        "projectDetails": {
+            "Summary":"This web application was created for RT-Technology Idea Ltd's sales team members to keep track of their monthly sales and commission as well as allow the employer to review sales made by individual team members.",
+            "Goal":"Communicate with the sales team to understand their needs as a team member and develop an application that could solve thier issues and satisfy their needs. As this was a small web application that was not under a time constraint, another goal of the project was to learn and explore the basics of AngularJS.",
+            "Approach":"As a sales team member would rather spend their time working with clients than logging information, it was important that update process was quick and easy and any information shown needed to be succinct and concise."
+        }
     },
     {
         "id": "201606",
@@ -64,13 +92,20 @@
         "title": "SuSweet",
         "role": "Web Developer",
         "type": "Web",
-        "intro": "An OpenCart page setup and customised for SuSweet.",
-        "details": "- Opencart \n - PHP \n- CSS3",
+        "intro": "An online shop that we migrated from Magento to OpenCart and added a large number of customisations to to solve the issues the client was originally having.",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"PHP - OpenCart",
+            "for": "SuSweet"
+        },
+        "projectDetails": {
+            "Summary":"The client wished to migrate his online shop, Susweet, to OpenCart as he saw some features and plugins available on OpenCart that suited his needs.",
+            "Goal":"Migrate SuSweet from Magento to OpenCart, customise the new site, install a number of plugins and modify them to meet the client's requirements.",
+            "Approach":"The migration of hundreds of products was carried out using a Cart2Cart service. Once this was completed, exsiting customisations were then applied to the new OpenCart page. Following that, the plugins requested by the client were installed and modifications were then made to them where possible to allow for even more customisation."
+        }
     },
     {
         "id": "201504",
@@ -78,14 +113,22 @@
         "title": "Eden Isle: Resort Paradise",
         "role": "Game Designer",
         "type": "Digital",
-        "intro": "Eden Isle: Resort Paradise is a multi-award winning quirky game for iOS that lets players build and manage a holiday resort, working towards a five star resort rating.",
-        "details": "- iOS",
+        "intro": "Eden Isle: Resort Paradise is a multi-award winning F2P sim game that lets players build and manage a holiday resort.",
         "link": "https://www.edenislegame.com/",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "available on":"iOS",
+            "for":"Simteractive"
+        },
+        "projectDetails": {
+            "Summary":"Eden Isle: Resort Paradise is the debut release of Dublin-based game development studio, Simteractive and is available now on the App Store.",
+            "Gameplay":"Eden Isle is a free to play sim game that allows users to build and maange a holiday resort - from hiring staff, constructing buildings and attracting a variety of guests.",
+            "Responsibilities":"I worked on a variety of game design areas such as game balancing, basic mechanics and tutrial design. I also assited in researching current user needs and competitors, performed QA, worked with testers, analysed test results, created UI mockups and wrote some in-game narrative.",
+            "Experience": "The internship allowed me to learn and experience a professional game development process. I was able to work with the programming and art team to implement the designs imagined by game designers and experience the dynamics. In addition, I was  nominated for Writers' Guild of Ireland ZeBBie Award for Best Game Script as a co-writer Eden Isle as a result of my work on the game's narrative."
+        }
     },
     {
         "id": "201502",
@@ -93,13 +136,16 @@
         "title": "Anything But Small Talk",
         "role": "Game Designer",
         "type": "Analog",
-        "intro": "This little card game based on the themes of memory, misdirection and conversation is the first game I designed solo and it's a personal favourite!",
-        "details": "- Storytelling Card Game \n- 4+ Players \n- ~15mins Per Player",
+        "intro": "Anything But Small Talk is a storytelling card game based on the themes of memory and misdirection. It was designed to encourage conversation between players, especially the listening aspect of conversation.",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "for":"4+ players",
+            "to play in": "~15minutes per player"
+        },
+        "projectDetails": "TODO"
     },
     {
         "id": "201501",
@@ -107,14 +153,21 @@
         "title": "Night Light Visuals (2015)",
         "role": "Web Designer & Developer",
         "type": "Web",
-        "intro": "An older version of Night Light Visuals portfolio site first designed and developed in 2015.",
-        "details": "- HTML5 \n- CSS3 \n- JavaScript \n-jQuery",
+        "intro": "An older version of my personal portfolio website first designed and developed back in 2015.",
         "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "created using":"HTML - CSS - JavaScript - jQuery",
+            "for": "Night Light Visuals"
+        },
+        "projectDetails": {
+            "Summary":"This was one of the original websites developed for Night List Visuals.",
+            "Goal":"Create a space to host and showcase game design and visual media projects that was easy to navigate and demonstrated my work behind each project.",
+            "Approach":"The design behind the website was influenced by Night Light Visuals' previous logo design which was based on neon lights. Borders, buttons and links were all based on this idea. Game design projects and visual media projects were colour coded to the two colours in the logo for easy navigation. Filters were also added for project pages for better navigation."
+        }
     },
     {
         "id": "201412",
@@ -122,14 +175,22 @@
         "title": "Sketch!",
         "role": "Game Designer & Developer",
         "type": "Digital",
-        "intro": "Sketch! is a small 2D game where your goal is to woo the girl - but don't get caught! Fill the swoon meter and get the girl before you get detention.",
-        "details": "- Orignally built for Unity Webplayer, currently being converted to WegGL \n *Playable link coming soon!",
+        "intro": "Sketch! is a small 2D game where your goal is to woo your crush. Fill the swoon meter and get a date but be careful not to get caught or you'll be spending Friday night in detention instead.",
         "link": "https://github.com/CarNg/game-sketch-prototype",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
+            "created using": "Unity - Photoshop"
+        },
+        "projectDetails": {
+            "Summary":"Sketch was developed as part of a game design and Unity exercise. The task was to brainstorm a list of themes and develop each theme with a mind map. Finally, narrow it down to one theme, design some basic mechanics associated with the theme and create a 2D game. My theme was 'School' and the result was Sketch.",
+            "Gameplay":"As mentioned, Sketch is a 2D game that takes place in a classroom and your goal is to woo your crush without getting caught. Collect gifts scattered around the classroom to give to your crush. The teacher will turn around at random intervals to scan the room and if you're caught walking around, your gift will be confiscated and you'll have to return to your seat. Get three warnings and you'll get detention and fail to get a date. The game will increase in difficulty as you progress. The teacher will become more weary and scan the room more often and faster so watch out.",
+            "Responsibilities":" Sketch was a solo project that was developed using Unity and Photoshop. All aspects of the game (game design, programming, art work) <b>except audio and fonts</b> are my own. I take no credit for the audio and no copyright infringements are intended.",
+            "Experience": "Developing Sketch! was a great learning experience for me. A number of mechanics were added and refined during the design and development process as a result of testing. For example, playtesting proved the initial game to be too easy and predictable. As a result, random triggers were added to the speed and direction of the teacher to add unpredictability. Sketch! also showed me how a simple and seemingly boring theme - School - can generate so many interesting mechanics ane be developed into a fun little game."
+        }
     },
     {
         "id": "201411",
@@ -137,14 +198,22 @@
         "title": "This Time Around",
         "role": "Game Designer & Developer",
         "type": "Digital",
-        "intro": "This Time Around is an interactive story/exploration game based on the themes of forgiveness and memories. Follow along Rachel Daniels' journey as she grows from an adolescent to an adult.",
-        "details": "- Windows \n- MacOS",
+        "intro": "This Time Around is an interactive story/exploration game based on the themes of forgiveness and memories. Players follow along Rachel Daniels' journey as she grows from an adolescent to an adult.",
         "link": "https://nightlightvisuals.itch.io/thistimearound",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "available on":"Windows - MacOS",
+            "created using": "Unity"
+        },
+        "projectDetails": {
+            "Summary":"Alden Nowlan's quote 'The day the child realizes that all adults are imperfect, he becomes an adolescent; the day he forgives them, he becomes an adult; the day he forgives himself, he becomes wise.' makes up the backbone of the narrative for This Time Around. The inspiration for the premise and story of This Time Around is a personal one. As someone who has trouble remembering their childhood, the idea of discovering it all again (essentially, for the first time) was fascinating to me. I wanted to pursue the idea that by revisiting your past you can learn and see things in a new perspective that you may have never considered before. As a player, you adopt the characters you play. Often times, players don't know the charcters' history or background. You discover these things on your own and in your own time. Much like if I were to delve into my own childhood, most of which I don't remember.",
+            "Gameplay":"The idea behind This Time Around is that players will (re)discover memories along with Rachel, (re)learning things you may have forgotten or have never examined before. So often we forget to look at things from someone else's perspective, and we forget that everyone that comes and goes in our lives leaves behind a part of them within us. Good or bad, we learn from them. This Time Around aims to be that reminder.",
+            "Responsibilities":"This Time Around was a year long solo project, this included being the game designer, writer and programmer for the project. The UI was also designed by myself. The models and audio used in the game however, are not my own. They were sourced from <a href='http://archive3d.net/>Archive3d</a> and <a href='https://www.freesound.org/'>Freesound</a>.",
+            "Experience": "The project was invaluable in terms of the things it taught me. Not only did I learn endless ways of problem solving in game development and how to code practically; with endless hours of researching and experimenting, I also learned how to develop a game design idea into a completed game through playtesting and a number of iterations. The project was iterated using a design-build-test cycle and that was the biggest learning experience of all. The cycle allowed me to understand user needs and the importance of playtesting and refining. In order to create a game for the target audience, playtesting and modifying your product according to the results and user needs is vital. There is no doubt that the things I learned from this project can and will be carried forward to furture projects."
+        }
     },
     {
         "id": "201410",
@@ -152,14 +221,22 @@
         "title": "Arcade ft. Turntable",
         "role": "Game Designer & Developer",
         "type": "Digital",
-        "intro": "Arcade is a small Unity scene developed to demonstrate a number of skills; such as Mecanim animation, AI behaviour, GUI implementation and saving/loading. Arcade also features a physics mini-game called Turntable.",
-        "details": "- Orignally built for Unity Webplayer, currently being converted to WegGL \n *Playable link coming soon!",
+        "intro": "Arcade is a small Unity scene developed to demonstrate a number of skills; such as Mecanim animation, AI behaviour, GUI implementation, saving and loading that also features a physics mini-game called Turntable.",
         "link": "https://github.com/CarNg/game-arcade",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
+            "created using": "Unity"
+        },
+        "projectDetails": {
+            "Summary":" Arcade was developed from a programming POV rather than game design. So the goal was to include a number of different features to demonstrate different skills learned rather than focus on creating something fun.",
+            "Gameplay":"Arcade contains two parts. There's the opening scene where players control a character around an aracde. This scene demonstrates Mecanim animation in all characters, including NPCs, and AI in the employee. The second part is the physics mini-game - Turntable. Here, I was able to add saving features to the game as well as refine the GUI. Incorporating Turntable into the game, also allowed me to introduce saving with the coins and tickets  system in the game.",
+            "Responsibilities":"Arcade was a solo project. I can take credit for the programming and game design of the game. However, all models, audio and art work is not mine.",
+            "Experience": "Arcade was a great exercise for myself to become familiar with many of the basics of Unity and coding in C#. Although Arcade itself is only a simple project, it helped significantly in building a base for me to expand and develop what I learned to use in future projects."
+        }
     },
     {
         "id": "201409",
@@ -167,13 +244,21 @@
         "title": "Circuits",
         "role": "Game Designer",
         "type": "Analog",
-        "intro": "Circuits is an exciting and unique 3D abstract puzzle game that challenges players' spatial awareness. Build circuits from all angles, compete with players to be the first to reach your goal, and block any threats you see coming!",
-        "details": "Abstract 3D Puzzle Game \n- 2-4 Players \n- ~20mins",
+        "intro": "Circuits is a unique 3D abstract puzzle game that challenges players' spatial awareness. Players build circuits from all angles, race to be the first to reach their secret goal, and block any threats they see coming!",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "for":"2-4 players",
+            "to play in": "~20minutes"
+        },
+        "projectDetails": {
+            "Summary":"The goal of Circuits was to create an original non-digital game from start to finish. This included game design, creating the game components, packaging and the rule book. We wanted to create a game that differed from other tabletop games in terms of components. We decided on a 3D design and created Circuits from there.",
+            "Gameplay":"Circuits is a two to four player game where players will be creating Circuits across the grid in order to complete their (secret) goal. Players can build from all angles by dropping in their blocks and matching up their Circuit on any side. Players will also be able to block and interfere with other players' routes at any stage by using their one 'blocker'. The aim of the game is to establish a connection that starts from the base of the board and runs 6 blocks high to the designated end point. When a player drops a block, their circuits must be connected on at least one side of their block as they build towards their end point. Keeping in mind that the full circuit must travel from the base of the frame all the way to their goal.",
+            "Responsibilities":"Circuits was a group project where I worked with Aisling Flynn, Gemma Gallagher and Sona Harrison. No single role was assigned to those involved in the project. Everything from design to production was done collectively as a team.",
+            "Experience": "Overall, I think that we developed the beginnings of an interesting and challenging game. There is no doubt that Circuits would need much more playtesting and refining in order to reach it's full potential but I believe that it does have a lot and could have been developed into a strong game with time. The project was also a great demonstration of the power of working on a strong team that communicated and worked well together. Weekly meetings allowed us to present our individual ideas and research and discuss our next steps together, this allowed for a great and encouraging environment and a smooth process in producing Circuits."
+        }
     },
     {
         "id": "201408",
@@ -181,27 +266,44 @@
         "title": "Hopscotch 2: Elements",
         "role": "Game Designer",
         "type": "Analog",
-        "intro": "Hopscotch 2: Elements is an 'unnecessary sequel' designed as part of a ludology class. The task was to find a game that is over 50 years old, determine the weak points and find solutions to create a stronger game.",
-        "details": "Dexterity Game \n- 2-4 Players \n- ~15mins",
+        "intro": "Hopscotch 2: Elements was an 'unnecessary sequel' designed as part of a ludology class. The task was to find a game that was over 50 years old, determine its weak points and find solutions to create a stronger game.",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "for":"2-4 players",
+            "to play in": "~15minutes"
+        },
+        "projectDetails": {
+            "Summary":"The first step in designing Hopscotch 2 was to examine hopscotch and determine what the weaknesses were in the game. We found that the main flow of the game is that it's very repetitive. There also wasn't much player interaction. So our goal was to add variety and randomness to the game as well as adding more player interaction. Our solution was to make the 'track' moveable and adding Elements.",
+            "Gameplay":"The 'track' of Hopscotch 2: Elements is made up of separate pieces. This can be pieces of foam or paper. Each piece will be associated with a single element and the track is constructed in a randomised pattern. Each player is assigned an element and the starting element on the track determines which players' turn it is. The player must hop to the end of the track but only on their assigned element. Once they are on their second piece, they must pick up the first (they can stand on two feet but must not fall of their piece) and carry it with them till the end of the track. Once they are there, they must place it down at the end. Therefore, creating a new pattern. Each player also gets a 'stone' that can only be used once per player per game. Players may toss the stone on the track allowing them to then step on the piece that the stone lands on regardless of element type, aiding them on more difficult patterns. If a player falls or steps on the wrong element, they are eliminated along with their elements on the track. The aim is to be the last one standing.",
+            "Responsibilities":"Hopscotch 2: Elements was a group project between myself, Aisling Flynn, Philippa Kelly and Diana Volovei. The game was researched, designed and playtested collectively. However, the artwork in the images above was provided by Diana.",
+            "Experience": "We found that the new elements (pun intended) added to the game made it more fun and significantly more engaging. It created more interaction between players as other players' actions would affect your turn which also added strategy into the game. The changing of the tracks also made the game more challenging as difficulty levels would increase as players were eliminated. The player elimination aspect was originally a concern but it didn't become a problem since games were often short (and it's fun watching people struggling not to fall too). The project was an interesting exercise in game design. Being able to examine a game, find the weaknesses and come up with solutions is a vital skill in game design and this project was a great example of that."
+        }
     },
     {
         "id": "201407",
         "background": {"backgroundColor":"white"},
         "title": "Pigeon Invasion",
-        "role": "Game Designer & Developer",
+        "role": "Game Developer and Producer",
         "type": "Digital",
-        "intro": "Pigeon Invasion is a casual mobile game that was released on the App Store back in 2014. The game design was based on the classic 80's action game 'Choplifter' and was developed using GameSalad.",
-        "details": "- iOS",
+        "intro": "Pigeon Invasion was a casual mobile game that was released on the App Store back in 2014. The game design was based on the classic 80's action game 'Choplifter'.",
         "link": "https://appadvice.com/app/pigeon-invasion/817549884",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
         },
-        "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis hendrerit nibh non placerat. Nunc et egestas ligula, eu cursus lectus. Pellentesque iaculis tellus nibh, sed auctor velit finibus sed. Phasellus sed massa venenatis, pharetra dui a, consequat lorem. Morbi lorem sem, finibus et purus id, molestie ultrices erat. Integer suscipit mauris nibh, non tristique diam molestie quis. Cras diam felis, lobortis a sodales vel, tincidunt ut nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus quam in enim tincidunt ornare. Fusce eget leo porttitor, iaculis lectus et, faucibus diam. Curabitur sed scelerisque sapien."
+        "projectKey": {
+            "available on":"iOS (now offline)",
+            "created using": "-GameSalad",
+            "for": "DIT"
+        },
+        "projectDetails": {
+            "Summary":"Pigeon Invasion was a three month project that aimed to gain experience in the full process of creating an app from scratch to releasing the game on the App Store and promoting the game afterwards.",
+            "Gameplay":"Since this was a short three month project, we chose to base the game's basic mechanics and game design on an existing game. This allowed us to hit the ground running. Pigeon Invasion is based on the classic 'Choplifter'. The goal of the game is to collect food for the baby pigeons. Players play as a pigeon, flying through parks, streets and abandoned factories in order to collect food for their babies. All the while, they must avoid a number of obstacles such as angry dogs, menacing teenagers and toxic waste. It borrows the mechanics of Choplifter and applies it to a fun and humourus setting.",
+            "Responsibilities":"Pigeon Invasion was a three person project that consisted of myself, Michiel Rheiter and Gabriel Pavan. Michiel was the art designer, creating and designing all of the graphics for the game. Gabriel worked on the project as the audio and gameplay designer, where he designed the levels and audio used in the game. Finally, I worked on the app as the programmer and producer. The game was developed in GameSalad and my role involved implemented the controls and mechanics of the game as well as implementing the art and audio work recieved from other team members. My role also included setting the tasks each week in order to keep the project on schedule. As we were working on a tight schedule it was important that we met our marks each week.",
+            "Experience": "Pigeon Invasion was the first group development project that I had worked in and it was a major learning experience in that sense. It showed the importance of established roles, communication and team work. It was clear that those aspects were able to make or break a project and a team. Understanding the importance of communication and team work allowed for smoother group projects in the future. Pigeon Invasion was also my first experience with the importance of game testing and refining. The mechanics of the game, although based on Choplifter, took many iterations due to the translation from console controls to touchscreen controls. What the team initially taught would be relatively simple turned into a much larger and tedious task. Many iterations were made during development as a result. It was also a great example on the importance of controls design and how it can change a game entirely."
+        }
     }    
 ]

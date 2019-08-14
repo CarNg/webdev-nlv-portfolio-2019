@@ -36,6 +36,7 @@ export default class ProjectBriefs extends Component {
 
     render(){
         const projects = ProjectList.map((project) =>{
+            //Color coding for digital, analog or web project
             let colorCode = style.cyan;
             if(project.type === "Digital"){
                 colorCode = style.red;
@@ -43,18 +44,25 @@ export default class ProjectBriefs extends Component {
             else if (project.type === "Analog") {
                 colorCode = style.white;
             }
+            
+            //Project key generation 
+            let projectKeyObj = project.projectKey;
+            var keyArray = Object.keys(projectKeyObj).map(function(key) {
+                return [key, projectKeyObj[key]];
+            });
+        
+            const keyList = keyArray.map((keyItem, index) => {
+                return (
+                    <React.Fragment key={index}>
+                        <br/>
+                        <span style={{fontWeight: "600", color: "var(--nlv-cyan)"}}>{keyItem[0]}</span>
+                        <br/>
+                        <span>{keyItem[1]}</span>
+                    </React.Fragment>
+                )
+            }); 
     
-            let details = "";
-            if(project.type === "Digital"){
-                details = "Platform";
-            }
-            else if (project.type === "Web") {
-                details = project.details.indexOf("\n") > -1 ? "Frameworks/Languages" : "Framework/Language";
-            }
-            else{
-                details = "";
-            }
-    
+            //External link button generation
             let externalLink;
             if(project.link){
                 if(project.link.includes("github")){
@@ -71,8 +79,8 @@ export default class ProjectBriefs extends Component {
                 externalLink = null;
             }
 
+            //Project brief gneration dependant on filter
             let projectBrief = null;
-
             if(this.props.filter === "" || this.props.filter === project.type){
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
@@ -82,11 +90,7 @@ export default class ProjectBriefs extends Component {
                         <span className={style.projectTitle}>{project.title}</span>
                         <span className={style.projectRole}>{project.role}</span>
                         <div className={style.blurb}>
-                            <p>{project.intro}</p>
-                            <p>
-                                {details === "" ? null : <span style={{lineHeight:"2rem"}}>{details}<br/></span>}
-                                {project.details}
-                            </p>
+                            <p>{project.intro} {keyList}</p>
                         </div>
                         <div className={style.readMore}>
                             <div className={[style.button, "button"].join(' ')}  onClick={() => (
@@ -99,7 +103,6 @@ export default class ProjectBriefs extends Component {
                     </div>
                 </div>;
             }
-    
             return projectBrief;
         });
 
@@ -113,7 +116,13 @@ export default class ProjectBriefs extends Component {
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >
-                    <ProjectPage projectTitle={this.state.projectTitle} projectRole={this.state.projectRole} projectDetails={this.state.projectDetails} projectImages={this.state.projectImages} onCloseClick={this.closeModal}/>
+                    <ProjectPage 
+                        projectTitle={this.state.projectTitle} 
+                        projectRole={this.state.projectRole} 
+                        projectDetails="" 
+                        projectImages={this.state.projectImages} 
+                        onCloseClick={this.closeModal}
+                    />
                 </Modal>
                 <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
                     {projects}        
