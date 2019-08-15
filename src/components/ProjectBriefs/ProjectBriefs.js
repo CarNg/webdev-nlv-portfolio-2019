@@ -12,18 +12,20 @@ export default class ProjectBriefs extends Component {
             projectImages: [],
             projectTitle: "",
             projectRole: "",
-            projectDetails: ""
+            projectDetails: "",
+            projectLink: ""
         }
         this.closeModal = this.closeModal.bind(this);
     }
 
-    openModal(projectImages, projectTitle, projectRole, projectDetails) {
+    openModal(projectImages, projectTitle, projectRole, projectDetails, projectLink) {
         this.setState({
             visible : true,
             projectImages: projectImages,
             projectTitle: projectTitle,
             projectRole: projectRole,
-            projectDetails: projectDetails
+            projectDetails: projectDetails,
+            projectLink: projectLink
         });
     }
 
@@ -66,13 +68,13 @@ export default class ProjectBriefs extends Component {
             let externalLink;
             if(project.link){
                 if(project.link.includes("github")){
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
+                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> View Code </div></a>;
                 }
                 else if(project.link.includes("itch")){
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
+                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> Play Now </div></a>;
                 }
                 else{
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
+                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> App Info </div></a>;
                 }
             }
             else {
@@ -93,12 +95,12 @@ export default class ProjectBriefs extends Component {
                             <p>{project.intro} {keyList}</p>
                         </div>
                         <div className={style.readMore}>
+                            {externalLink}
                             <div className={[style.button, "button"].join(' ')}  onClick={() => (
-                                this.openModal(project.images, project.title, project.role, project.projectDetails)
+                                this.openModal(project.images, project.title, project.role, project.projectDetails, project.link)
                             )} >
                                 See More
                             </div>
-                            {externalLink}
                         </div>
                     </div>
                 </div>;
@@ -119,8 +121,9 @@ export default class ProjectBriefs extends Component {
                     <ProjectPage 
                         projectTitle={this.state.projectTitle} 
                         projectRole={this.state.projectRole} 
-                        projectDetails="" 
+                        projectDetails={this.state.projectDetails} 
                         projectImages={this.state.projectImages} 
+                        projectLink={this.state.projectLink}
                         onCloseClick={this.closeModal}
                     />
                 </Modal>

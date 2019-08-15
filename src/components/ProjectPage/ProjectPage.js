@@ -13,14 +13,40 @@ export default class ProjectPage extends Component {
     }
 
     render(){
-        const button = {
-            padding: "0.4rem 0.5rem 0.7rem 0.7rem",
-            margin: "10px 10px 0px 10px",
-            fontSize: "1.1em",
-            fontWeight: "500",
-            letterSpacing: "0.15em",
-            height: "15px",
-            width: "65px"
+        //Project key generation 
+        let projectDetailsObj = this.props.projectDetails;
+        var detailsArray = Object.keys(projectDetailsObj).map(function(key) {
+            return [key, projectDetailsObj[key]];
+        });
+    
+        const details = detailsArray.map((detail, index, array) => {
+            return (
+                <React.Fragment key={index}>
+                    <div className={style.columnTitle}>
+                        {detail[0]}
+                    </div>
+                    <div className={style.columnDetails}>
+                        {detail[1]}
+                    </div>
+                </React.Fragment>
+            )
+        });
+
+        //External link button generation
+        let externalLink;
+        if(this.props.projectLink){
+            if(this.props.projectLink.includes("github")){
+                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
+            }
+            else if(this.props.projectLink.includes("itch")){
+                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
+            }
+            else{
+                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
+            }
+        }
+        else {
+            externalLink = null;
         }
 
         return (
@@ -30,10 +56,13 @@ export default class ProjectPage extends Component {
                     <span id={style.projectTitle}>{this.props.projectTitle}</span>
                     <span id={style.projectSubtitle}>{this.props.projectRole}</span>
                     <br/>
-                    <span id={style.projectDetails}>{this.props.projectDetails}</span>
+                    <div id={style.projectDetails}>
+                        {details}
+                    </div>
                     <br/>
                     <br/>
-                    <div style={button} className="button" onClick={this.handleOnClick}>
+                    {externalLink}
+                    <div className={["button", style.button].join(" ")} onClick={this.handleOnClick}>
                         close
                     </div>
                 </div>

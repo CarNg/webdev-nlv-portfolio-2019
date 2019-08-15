@@ -39,14 +39,45 @@
 }
 
 #projectSubtitle {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     display: block;
     color: var(--nlv-cyan);
     font-style: italic;
 }
 
 #projectDetails {
+    width: 100%;
+}
+
+.columnTitle{
+    display: inline-block;
+    width: 120px;
+    padding-right: 15px;
+    text-align: right;
+    vertical-align: top;
+    color: var(--nlv-cyan);
+    font-size: 1.7rem;
+    height: 100%;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+
+.columnDetails {
+    display: inline-block;
+    width: calc(100% - 135px);
     color: var(--nlv-white);
     font-size: 1.1rem;
     font-family: 'Dosis';
+    text-align: left;
+    margin-top: 15px;
+}
+
+.button{
+    padding: 0.4rem 0.5rem 0.7rem 0.7rem;
+    margin: 10px 10px 0px 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    height: 15px;
+    width: fit-content;
 }
