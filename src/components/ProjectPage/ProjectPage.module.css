@@ -39,7 +39,7 @@
 }
 
 #projectSubtitle {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: block;
     color: var(--nlv-cyan);
     font-style: italic;
@@ -56,10 +56,10 @@
     text-align: right;
     vertical-align: top;
     color: var(--nlv-cyan);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     height: 100%;
     margin-top: 10px;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .columnDetails {

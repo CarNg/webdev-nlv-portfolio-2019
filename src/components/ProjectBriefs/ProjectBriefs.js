@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import style from '../ProjectBriefs/ProjectBriefs.module.css'
-import ProjectList from '../../assets/data/ProjectList.json'
 import Modal from 'react-awesome-modal';
 import ProjectPage from '../ProjectPage/ProjectPage';
 
@@ -13,9 +12,16 @@ export default class ProjectBriefs extends Component {
             projectTitle: "",
             projectRole: "",
             projectDetails: "",
-            projectLink: ""
+            projectLink: "",
+            projectList: []
         }
         this.closeModal = this.closeModal.bind(this);
+    }
+
+    componentDidMount() {
+        fetch('https://carng.github.io/webdev-nlv-portfolio-2019/ProjectsList.json')
+            .then(response => response.json())
+            .then(data => this.setState({ projectList: data }));
     }
 
     openModal(projectImages, projectTitle, projectRole, projectDetails, projectLink) {
@@ -37,7 +43,8 @@ export default class ProjectBriefs extends Component {
     }
 
     render(){
-        const projects = ProjectList.map((project) =>{
+        const {projectList} = this.state;
+        const projects = projectList.map((project) =>{
             //Color coding for digital, analog or web project
             let colorCode = style.cyan;
             if(project.type === "Digital"){
