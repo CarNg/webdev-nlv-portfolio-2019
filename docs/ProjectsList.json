@@ -23,7 +23,7 @@
     },
     {
         "id": "201704",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefRTTech.png)"},
         "title": "RT-Technology",
         "role": "Web Desginer & Developer",
         "type": "Web",
