@@ -28,7 +28,7 @@
         "role": "Web Desginer & Developer",
         "type": "Web",
         "intro": "A simple, responsive landing page designed to showcase the company's different services and websites from one location.",
-        "link": "https://carng.github.io/webdev-rt-tech/",
+        "link": "https://github.com/CarNg/webdev-rt-tech;https://carng.github.io/webdev-rt-tech/",
         "images":{
             "image1": "/images/briefNlv.png",
             "image2": "/images/briefNlv.png"
