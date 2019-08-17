@@ -1,7 +1,7 @@
 [
     {
         "id": "201908",
-        "background": {"backgroundImage":"url(images/briefNLV.png)"},
+        "background": {"backgroundImage":"url(images/briefNlv.png)"},
         "title": "Night Light Visuals",
         "role": "Web Designer & Developer",
         "type": "Web",
@@ -24,7 +24,7 @@
     },
     {
         "id": "201704",
-        "background": {"backgroundImage":"url(images/briefRTTech.png)"},
+        "background": {"backgroundImage":"url(images/briefRttech.png)"},
         "title": "RT-Technology",
         "role": "Web Desginer & Developer",
         "type": "Web",
@@ -46,7 +46,7 @@
     },
     {
         "id": "201703",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefBabypos.png)"},
         "title": "BabyPOS Web Application",
         "role": "Web Developer",
         "type": "Web",
@@ -67,7 +67,7 @@
     },
     {
         "id": "201702",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefBabypos.png)"},
         "title": "Sales Web App",
         "role": "Web Developer",
         "type": "Web",
@@ -89,7 +89,7 @@
     },
     {
         "id": "201606",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefSusweet.png)"},
         "title": "SuSweet",
         "role": "Web Developer",
         "type": "Web",
@@ -110,7 +110,7 @@
     },
     {
         "id": "201504",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefEdenIsle.png)"},
         "title": "Eden Isle: Resort Paradise",
         "role": "Game Designer",
         "type": "Digital",
@@ -133,7 +133,7 @@
     },
     {
         "id": "201502",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefAbst.png)"},
         "title": "Anything But Small Talk",
         "role": "Game Designer",
         "type": "Analog",
@@ -155,7 +155,7 @@
     },
     {
         "id": "201501",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefNvl2015.png)"},
         "title": "Night Light Visuals (2015)",
         "role": "Web Designer & Developer",
         "type": "Web",
@@ -177,7 +177,7 @@
     },
     {
         "id": "201412",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefSketch.png)"},
         "title": "Sketch!",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -200,7 +200,7 @@
     },
     {
         "id": "201411",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefTta.png)"},
         "title": "This Time Around",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -223,7 +223,7 @@
     },
     {
         "id": "201410",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefTurntable.png)"},
         "title": "Arcade ft. Turntable",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -246,7 +246,7 @@
     },
     {
         "id": "201409",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefCircuits.png)"},
         "title": "Circuits",
         "role": "Game Designer",
         "type": "Analog",
@@ -268,7 +268,7 @@
     },
     {
         "id": "201408",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefHopscotch.png)"},
         "title": "Hopscotch 2: Elements",
         "role": "Game Designer",
         "type": "Analog",
@@ -290,7 +290,7 @@
     },
     {
         "id": "201407",
-        "background": {"backgroundColor":"white"},
+        "background": {"backgroundImage":"url(images/briefPigeon.png)"},
         "title": "Pigeon Invasion",
         "role": "Game Developer and Producer",
         "type": "Digital",
