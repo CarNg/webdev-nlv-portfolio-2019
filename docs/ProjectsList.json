@@ -66,28 +66,6 @@
         }
     },
     {
-        "id": "201702",
-        "background": {"backgroundImage":"url(images/briefBabypos.png)"},
-        "title": "Sales Web App",
-        "role": "Web Developer",
-        "type": "Web",
-        "intro": "A simple web application built for sales teams to track monthly sales, quotas to be met and calculate commissions to be received.",
-        "link": "https://github.com/CarNg/sales-web-app",
-        "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
-        },
-        "projectKey": {
-            "created using":"AngularJS - PHP - MySQL",
-            "for": "RT-Technology Idea Ltd."
-        },
-        "projectDetails": {
-            "Summary":"This web application was created for RT-Technology Idea Ltd's sales team members to keep track of their monthly sales and commission as well as allow the employer to review sales made by individual team members every month.",
-            "Goal":"Communicate with the sales team to understand their needs as a team member and develop an application that could solve their issues and streamline their workflow. As this was a small web application that was not under a time constraint, another goal of the project was to learn and explore the basics of AngularJS.",
-            "Approach":"As a sales team member would rather spend their time working with clients than logging and searching for information, it was important that the update process was quick and any information displayed needed to be succinct and concise."
-        }
-    },
-    {
         "id": "201606",
         "background": {"backgroundImage":"url(images/briefSusweet.png)"},
         "title": "SuSweet",
