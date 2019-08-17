@@ -1,14 +1,15 @@
 #profileWrapper{
     width: 100%;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 #profile img{
+    border: 2px solid var(--nlv-red);
     border-radius: 50%;
     width: 150px;
     height: 150px;
     display: block;
-    margin: 20px auto;
+    margin: 25px auto;
 }
 
 #profileText{

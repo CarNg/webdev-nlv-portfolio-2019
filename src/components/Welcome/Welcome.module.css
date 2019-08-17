@@ -1,33 +1,31 @@
-.welcomeWrapper {
-    position: relative;
-    height: calc(100% - 60px);
-    min-height: calc(100% - 60px);
-  }
-
-  .centerInfo {
+  .welcomeWrapper {
     margin: 0;
     height: fit-content;
     width: fit-content;
-    text-align: left;
     color: var(--nlv-white);
     position: absolute;
     top: 50%;
-    left: 30%;
-    transform: translate(-30%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
-  h1 {
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-size: 12rem;
-    margin: 0px;
-    line-height: 18px;
-    color: var(--nlv-white);
+  #line{
+    margin-top: 25px;
+    width: 70%;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 3px solid var(--nlv-red);
+  }
+
+  #buttonsWrapper{
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .button {
-    padding: 0.9rem 0.9rem 0.8rem 1rem; 
-    margin: 30px;
+    padding: 0.8rem 0.8rem 0.7rem 1rem; 
+    margin: 20px 15px;
     font-size: 1.2em;
     font-weight: 500;
     letter-spacing: 0.15em;

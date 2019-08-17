@@ -7,20 +7,22 @@ import Skills from '../components/Skills/Skills';
 
 export default function About() {
     return (
-        <div style={{width: "70%", display: "block", margin: "50px auto"}}>
-            <Profile/>
-            <Skills/>
-            <div style={buttonWrapper}>
-                <a href={resume} target="_blank" rel="noopener noreferrer">
-                    <div style={button} className="button">
-                        view resume
-                    </div>
-                </a>
-                <Link to="/contact">
-                    <div style={button} className="button">
-                        let's talk
-                    </div>
-                </Link>
+        <div className="pageWrapper">
+            <div style={{position: "absolute", top: "50%", transform: "translateY(-50%)"}}>
+                <Profile/>
+                <Skills/>
+                <div style={buttonWrapper}>
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
+                        <div style={button} className="button">
+                            view resume
+                        </div>
+                    </a>
+                    <Link to="/contact">
+                        <div style={button} className="button">
+                            let's talk
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
     )
@@ -28,7 +30,7 @@ export default function About() {
 
 const button = {
     padding: "0.7rem 0.5rem 0.5rem 0.6rem",
-    margin: "10px 10px 0px 10px",
+    margin: "0px 10px 0px 10px",
     fontSize: "1.1em",
     fontWeight: "500",
     letterSpacing: "0.15em",

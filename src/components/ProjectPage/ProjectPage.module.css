@@ -15,7 +15,7 @@
 }
    
 .wrapper::-webkit-scrollbar-thumb {
-    background: var(--nlv-cyan); 
+    background: var(--nlv-red); 
     border-radius: 3px;
 }
   

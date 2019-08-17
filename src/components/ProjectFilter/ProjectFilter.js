@@ -14,7 +14,7 @@ export default class ProjectFilter extends Component {
     render(){
         return (
             <div id={style.filterWrapper}>
-                <div className={["button", style.filterLink].join(' ')} onClick={() => {this.handleFilterChange("")}}>All</div>
+                <div className={["button", style.filterLink].join(' ')} onClick={() => {this.handleFilterChange("")}}>All Projects</div>
                 <div className={["button", style.filterLink].join(' ')} onClick={() => {this.handleFilterChange("Web")}}>Web Dev</div>
                 <div className={["button", style.filterLink].join(' ')} onClick={() => {this.handleFilterChange("Digital")}}>Digital Games</div>
                 <div className={["button", style.filterLink].join(' ')} onClick={() => {this.handleFilterChange("Analog")}}>Analog Games</div>

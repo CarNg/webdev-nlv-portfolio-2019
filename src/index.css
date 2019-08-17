@@ -42,6 +42,32 @@ body {
   min-height: 100%;
 }
 
+.pageWrapper{
+  width: 80%;
+  height: calc(100% - 85px);
+  overflow: auto;
+  margin: 0px auto;
+  position: relative;
+}
+
+.pageWrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.pageWrapper::-webkit-scrollbar-track {
+  background: var(--nlv-gray); 
+  border-radius: 3px;
+}
+ 
+.pageWrapper::-webkit-scrollbar-thumb {
+  background: var(--nlv-red); 
+  border-radius: 3px;
+}
+
+.pageWrapper::-webkit-scrollbar-thumb:hover {
+  background: var(--nlv-cyan); 
+}
+
 .button {
   display: inline-block;
   border: 1.5px solid var(--nlv-red);
@@ -69,10 +95,20 @@ a:hover{
   text-decoration-color: var(--nlv-cyan);
 }
 
+h1{
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 12rem;
+    margin: 0px;
+    line-height: 18px;
+    color: var(--nlv-white);
+    padding-top: 75px;
+}
+
 h3 {
   font-weight: 500;
   font-size: 3.6rem;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
   margin-bottom: 0px;
   color: var(--nlv-cyan);
   margin-left: 5px;
@@ -89,8 +125,8 @@ h4 {
 h5 {
   color: var(--nlv-gray);
   font-weight: normal;
-  font-size: 1.5em;
-  margin: 10px 0px 0px 0px;
+  font-size: 1.8em;
+  margin: 20px 0px 0px 0px;
 }
 
 .slick-prev:before,

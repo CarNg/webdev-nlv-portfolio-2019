@@ -15,15 +15,8 @@ export default class Project extends Component {
     }
 
     render(){
-        const wrapper = {
-            height: "calc(100% - 140px)",
-            position: "relative",
-            width: "calc(84% - 60px)",
-            padding: "40px 8%"
-        }
-
         return (
-            <div style={wrapper}>
+            <div className="pageWrapper" style={{overflow: "hidden"}}>
                 <ProjectFilter onFilterChange={this.handleFilterProjects} />
                 <ProjectBriefs filter={this.state.filter} />
             </div>

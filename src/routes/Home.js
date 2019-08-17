@@ -4,6 +4,8 @@ import Welcome from '../components/Welcome/Welcome'
 
 export default function Home() {
     return (
-        <Welcome />
+        <div className="pageWrapper">
+            <Welcome />
+        </div>
     )
 }

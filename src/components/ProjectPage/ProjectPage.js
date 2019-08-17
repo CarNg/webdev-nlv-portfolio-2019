@@ -33,20 +33,20 @@ export default class ProjectPage extends Component {
         });
 
         //External link button generation
-        let externalLink;
+        let externalLink = null;
         if(this.props.projectLink){
-            if(this.props.projectLink.includes("github")){
-                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> View Code </div></a>;
-            }
-            else if(this.props.projectLink.includes("itch")){
-                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>;
-            }
-            else{
-                externalLink = <a href={this.props.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> App Info </div></a>;
-            }
-        }
-        else {
-            externalLink = null;
+            let links = this.props.projectLink.split(";");
+            externalLink = links.map((link, index) => {
+                if(link.includes("github") && !link.includes(".io")){
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Examine Code </div></a>
+                }
+                else if(link.includes("itch")){
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>
+                }
+                else{
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Visit Site </div></a>
+                }
+            });
         }
 
         return (

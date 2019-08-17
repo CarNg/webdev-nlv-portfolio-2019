@@ -7,7 +7,8 @@ export default class ProjectBriefs extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            visible : false,
+            isLoading : true,
+            modalVisible : false,
             projectImages: [],
             projectTitle: "",
             projectRole: "",
@@ -21,12 +22,17 @@ export default class ProjectBriefs extends Component {
     componentDidMount() {
         fetch('https://carng.github.io/webdev-nlv-portfolio-2019/ProjectsList.json')
             .then(response => response.json())
-            .then(data => this.setState({ projectList: data }));
+            .then(data => (
+                this.setState({ 
+                    projectList: data,
+                    isLoading: false
+                })
+            ));
     }
 
     openModal(projectImages, projectTitle, projectRole, projectDetails, projectLink) {
         this.setState({
-            visible : true,
+            modalVisible : true,
             projectImages: projectImages,
             projectTitle: projectTitle,
             projectRole: projectRole,
@@ -38,7 +44,7 @@ export default class ProjectBriefs extends Component {
     closeModal() {
         document.getElementById("projectModalScroll").scrollTop = 0;
         this.setState({
-            visible : false
+            modalVisible : false
         });
     }
 
@@ -70,23 +76,6 @@ export default class ProjectBriefs extends Component {
                     </React.Fragment>
                 )
             }); 
-    
-            //External link button generation
-            let externalLink;
-            if(project.link){
-                if(project.link.includes("github")){
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> View Code </div></a>;
-                }
-                else if(project.link.includes("itch")){
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> Play Now </div></a>;
-                }
-                else{
-                    externalLink = <a href={project.link} target="_blank" rel="noopener noreferrer"><div className={[style.button, "button"].join(' ')} style={{marginRight: "15px"}}> App Info </div></a>;
-                }
-            }
-            else {
-                externalLink = null;
-            }
 
             //Project brief gneration dependant on filter
             let projectBrief = null;
@@ -102,11 +91,10 @@ export default class ProjectBriefs extends Component {
                             <p>{project.intro} {keyList}</p>
                         </div>
                         <div className={style.readMore}>
-                            {externalLink}
                             <div className={[style.button, "button"].join(' ')}  onClick={() => (
                                 this.openModal(project.images, project.title, project.role, project.projectDetails, project.link)
                             )} >
-                                See More
+                                Learn More
                             </div>
                         </div>
                     </div>
@@ -115,11 +103,21 @@ export default class ProjectBriefs extends Component {
             return projectBrief;
         });
 
+        if (this.state.isLoading) {
+            return (
+                <div id={style.loading}>
+                    <div className={style.ldsEllipsis}><div></div><div></div><div></div><div></div></div>
+                    <div id={style.loadingText}>Grabbing those projects for you</div>
+                    <div className={style.ldsEllipsis}><div></div><div></div><div></div><div></div></div>
+                </div>
+            )
+        }
+
         return (
             <React.Fragment>
                 <Modal 
                     id="projectModal"
-                    visible={this.state.visible}
+                    visible={this.state.modalVisible}
                     width="75%"
                     height="75%"
                     effect="fadeInUp"
