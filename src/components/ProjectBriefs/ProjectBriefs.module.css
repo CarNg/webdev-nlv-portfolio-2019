@@ -91,13 +91,13 @@
     color: var(--nlv-white);
 }
 
-.white:before {
-    border-bottom: 10px solid var(--nlv-white);
+.black:before {
+    border-bottom: 10px solid var(--nlv-black);
 }
 
-.white{
-    background: linear-gradient(to bottom, var(--nlv-white) 0%,var(--nlv-white) calc(15% + 35px),#000000 calc(15% + 35px),var(--nlv-black) calc(15% + 35px),var(--nlv-black) 100%);
-    color: var(--nlv-black);
+.black{
+    background: linear-gradient(to bottom, var(--nlv-black) 0%,var(--nlv-black) calc(15% + 35px),#000000 calc(15% + 35px),var(--nlv-black) calc(15% + 35px),var(--nlv-black) 100%);
+    color: var(--nlv-white);
 }
 
 .digitalGame{

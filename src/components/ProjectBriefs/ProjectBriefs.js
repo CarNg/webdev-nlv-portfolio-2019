@@ -57,7 +57,7 @@ export default class ProjectBriefs extends Component {
                 colorCode = style.red;
             }
             else if (project.type === "Analog") {
-                colorCode = style.white;
+                colorCode = style.black;
             }
             
             //Project key generation 
