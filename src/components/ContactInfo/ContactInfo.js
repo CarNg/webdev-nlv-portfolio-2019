@@ -11,54 +11,59 @@ export default function ContactInfo() {
     return (
         <div className={style.wrapper}>
             <div className={style.emailRow}>
-                <span style={{color: "var(--nlv-cyan)"}}>Get in touch!</span> <br/>
+                Got a question or wanna work together?<br/>
                 <a href="mailto:carmenng.media@gmail.com?Subject=Night%20Light%20Visuals" id={style.email}>
                     carmenng.media@gmail.com
                 </a> <br/>
             </div>
 
             <div className={style.socialRow}>
-                <a href="https://github.com/CarNg/">
+                <a href="https://github.com/CarNg/" className={style.socialColumn}>
                     <div className={style.socialIcon}>
                         <img
                             alt="Github Icon"
                             src={socialGithub}
                         />
                     </div>
+                    <p className={style.socialLabel}>Code Things</p>
                 </a>
-                <a href="https://nightlightvisuals.itch.io/">
+                <a href="https://nightlightvisuals.itch.io/" className={style.socialColumn}>
                     <div className={style.socialIcon}>
                             <img
                                 alt="Itch.io Icon"
                                 src={socialItch}
                             />
                     </div>
+                    <p className={style.socialLabel}>Game Things</p>
                 </a>  
-                <a href="https://www.linkedin.com/in/carng">
+                <a href="https://www.linkedin.com/in/carng" className={style.socialColumn}>
                     <div className={style.socialIcon}>
                         <img
                             alt="LinkedIn Icon"
                             src={socialLinkedIn}
                         />
                     </div>
+                    <p className={style.socialLabel}>Career Things</p>
                 </a>
-                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA">
+                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA" className={style.socialColumn}>
                     <div className={style.socialIcon}>
                         <img
                             alt="Youtube Icon"
                             src={socialYoutube}
                         />  
                     </div>
+                    <p className={style.socialLabel}>Video Things</p>
                 </a>
-                <a href="https://society6.com/carmenng">
+                <a href="https://society6.com/carmenng" className={style.socialColumn}>
                     <div className={style.socialIcon}>
                         <img
                             alt="Society6 Icon"
                             src={socialSociety6}
                         />
                     </div>
+                    <p className={style.socialLabel}>Print Things</p>
                 </a>
-            </div>            
+            </div>       
         </div>
     )
 }
