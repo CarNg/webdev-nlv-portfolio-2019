@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from '../ProjectBriefs/ProjectBriefs.module.css'
 import Modal from 'react-awesome-modal';
 import ProjectPage from '../ProjectPage/ProjectPage';
+import 'whatwg-fetch';
 
 export default class ProjectBriefs extends Component {
     constructor(props) {
@@ -20,7 +21,7 @@ export default class ProjectBriefs extends Component {
     }
 
     componentDidMount() {
-        fetch('https://carng.github.io/webdev-nlv-portfolio-2019/ProjectsList.json')
+        window.fetch('https://carng.github.io/webdev-nlv-portfolio-2019/ProjectsList.json')
             .then(response => response.json())
             .then(data => (
                 this.setState({ 
