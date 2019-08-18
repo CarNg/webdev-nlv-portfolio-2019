@@ -52,6 +52,7 @@
         "role": "Web Developer",
         "type": "Web",
         "intro": "A web application to accompany BabyPOS POS System where staff members and employers could access, review and update information on their POS system.",
+        "link":"https://babypos.hk/",
         "images":{
             "BabyPOS Web App Image 1": "/images/sliderBabypos1.png",
             "BabyPOS Web App Image 2": "/images/sliderBabypos2.png",
@@ -74,9 +75,11 @@
         "role": "Web Developer",
         "type": "Web",
         "intro": "An online shop that we migrated from Magento to OpenCart and added a large number of customisations to to solve the issues the client was originally having.",
+        "link": "https://www.susweet.com/",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "SuSweet Image 1": "/images/sliderSusweet1.png",
+            "SuSweet Image 2": "/images/sliderSusweet2.png",
+            "SuSweet Image 3": "/images/sliderSusweet3.png"
         },
         "projectKey": {
             "created using":"PHP - OpenCart",
@@ -97,8 +100,10 @@
         "intro": "Eden Isle: Resort Paradise is a multi-award winning F2P sim game that lets players build and manage a holiday resort.",
         "link": "https://www.edenislegame.com/",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Eden Isle: Resort Paradise Image 1": "/images/sliderEdenIsle1.png",
+            "Eden Isle: Resort Paradise Image 2": "/images/sliderEdenIsle2.png",
+            "Eden Isle: Resort Paradise Image 3": "/images/sliderEdenIsle3.png",
+            "Eden Isle: Resort Paradise Image 4": "/images/sliderEdenIsle4.png"
         },
         "projectKey": {
             "available on":"iOS",
@@ -140,10 +145,13 @@
         "role": "Web Designer & Developer",
         "type": "Web",
         "intro": "An older version of my personal portfolio website first designed and developed back in 2015.",
-        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015",
+        "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015;https://carng.github.io/webdev-nlv-portfolio-2015/public_html/index.html",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Night Light Visuals 2015 Image 1": "/images/sliderNlv20151.png",
+            "Night Light Visuals 2015 Image 2": "/images/sliderNlv20152.png",
+            "Night Light Visuals 2015 Image 3": "/images/sliderNlv20153.png",
+            "Night Light Visuals 2015 Image 4": "/images/sliderNlv20154.png",
+            "Night Light Visuals 2015 Image 5": "/images/sliderNlv20155.png"
         },
         "projectKey": {
             "created using":"HTML - CSS - JavaScript - jQuery",
