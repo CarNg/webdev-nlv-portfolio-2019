@@ -52,7 +52,6 @@
         "role": "Web Developer",
         "type": "Web",
         "intro": "A web application to accompany BabyPOS POS System where staff members and employers could access, review and update information on their POS system.",
-        "link":"https://babypos.hk/",
         "images":{
             "BabyPOS Web App Image 1": "/images/sliderBabypos1.png",
             "BabyPOS Web App Image 2": "/images/sliderBabypos2.png",
@@ -124,8 +123,9 @@
         "type": "Analog",
         "intro": "Anything But Small Talk is a storytelling card game based on the themes of memory and misdirection. It was designed to encourage conversation between players, especially the listening aspect of conversation.",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Anything But Small Talk Image 1": "/images/sliderAbst1.png",
+            "Anything But Small Talk Image 2": "/images/sliderAbst2.png",
+            "Anything But Small Talk Image 3": "/images/sliderAbst3.png"
         },
         "projectKey": {
             "for":"4+ players",
@@ -172,8 +172,9 @@
         "intro": "Sketch! is a small 2D game where your goal is to woo your crush. Fill the swoon meter and get a date but be careful not to get caught or you'll be spending Friday night in detention instead.",
         "link": "https://github.com/CarNg/game-sketch-prototype",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Sketch! Image 1": "/images/sliderSketch1.png",
+            "Sketch! Image 2": "/images/sliderSketch2.png",
+            "Sketch! Image 3": "/images/sliderSketch3.png"
         },
         "projectKey": {
             "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
@@ -195,8 +196,12 @@
         "intro": "This Time Around is an interactive story/exploration game based on the themes of forgiveness and memories. Players follow along Rachel Daniels' journey as she grows from an adolescent to an adult.",
         "link": "https://nightlightvisuals.itch.io/thistimearound",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "This Time Around Image 1": "/images/sliderTta1.png",
+            "This Time Around Image 2": "/images/sliderTta2.png",
+            "This Time Around Image 3": "/images/sliderTta3.png",
+            "This Time Around Image 4": "/images/sliderTta4.png",
+            "This Time Around Image 5": "/images/sliderTta5.png",
+            "This Time Around Image 6": "/images/sliderTta6.png"
         },
         "projectKey": {
             "available on":"Windows - MacOS",
@@ -218,8 +223,7 @@
         "intro": "Arcade is a small Unity scene developed to demonstrate a number of skills; such as Mecanim animation, AI behaviour, GUI implementation, saving and loading that also features a physics mini-game called Turntable.",
         "link": "https://github.com/CarNg/game-arcade",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Aracade Image 1": "/images/sliderArcade1.png"
         },
         "projectKey": {
             "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
@@ -240,8 +244,9 @@
         "type": "Analog",
         "intro": "Circuits is a unique 3D abstract puzzle game that challenges players' spatial awareness. Players build circuits from all angles, race to be the first to reach their secret goal, and block any threats they see coming!",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Circuits Image 1": "/images/sliderCircuits1.png",
+            "Circuits Image 2": "/images/sliderCircuits2.png",
+            "Circuits Image 3": "/images/sliderCircuits3.png"
         },
         "projectKey": {
             "for":"2-4 players",
@@ -262,8 +267,7 @@
         "type": "Analog",
         "intro": "Hopscotch 2: Elements was an 'unnecessary sequel' designed as part of a ludology class. The task was to find a game that was over 50 years old, determine its weak points and find solutions to create a stronger game.",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Hopscotch Image 1": "/images/sliderHopscotch1.png"
         },
         "projectKey": {
             "for":"2-4 players",
@@ -285,8 +289,8 @@
         "intro": "Pigeon Invasion was a casual mobile game that was released on the App Store back in 2014. The game design was based on the classic 80's action game 'Choplifter'.",
         "link": "https://appadvice.com/app/pigeon-invasion/817549884",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "Pigeon Invasion 1": "/images/sliderPigeonInvasion1.png",
+            "Pigeon Invasion 2": "/images/sliderPigeonInvasion2.png"
         },
         "projectKey": {
             "available on":"iOS (now offline)",
