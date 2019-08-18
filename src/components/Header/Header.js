@@ -8,7 +8,7 @@ import logo from '../../assets/images/logo.png';
 
 function Header() {
 	const mobileHeader = {
-		width: "150px",
+		width: "100px",
 		padding: "20px",
 		margin: "0 auto",
 	}

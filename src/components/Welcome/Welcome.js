@@ -13,14 +13,14 @@ import socialGithub from '../../assets/images/socialGithub.png'
 export default function Welcome() {
     //Temp mobile css
     const mobileTitle = {
-        fontSize: "5rem",
+        fontSize: "4.5rem",
         borderTop: "3px solid var(--nlv-cyan)",
         borderBottom: "3px solid var(--nlv-cyan)",
     }
 
     const mobileSubtitle = {
         marginTop: "20px",
-        fontSize: "1.5rem"
+        fontSize: "1.3rem"
     }
 
     const socialRow = {
