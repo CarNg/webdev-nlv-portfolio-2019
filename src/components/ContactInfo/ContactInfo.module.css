@@ -18,7 +18,7 @@
 }
 
 #email{
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     line-height: 4.5rem;
     font-weight: 500;
     text-decoration: none;
@@ -40,12 +40,11 @@
 
 .socialRow {
     color: var(--nlv-white);
-    width: 700px;
+    width: 600px;
     padding: 10px 0px;
     margin: 0px auto;
     font-size: 2rem;
     font-family: 'Dosis';
-    color: var(--nlv-white);
     text-align: center;
     line-height: 4rem;
     display: table;

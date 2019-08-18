@@ -5,7 +5,6 @@ footer {
   width: 100%;
   font-size: 0.7em;
   bottom: 0;
-  text-align: right;
   color: var(--nlv-white);
   line-height: 25px;
   letter-spacing: 0.15em;
@@ -15,11 +14,15 @@ footer > a{
   margin-right: 1%;
 }
 
-@media only screen and (min-width: 350px) {
-  
+@media only screen and (min-width: 768px) {
+    footer {
+      text-align: right;
+    }
 }
 
 /* Mobile Stylings */
-@media only screen and (max-width: 349px) {
-  
+@media only screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
 }
