@@ -118,8 +118,8 @@ export default class ProjectBriefs extends Component {
                 <Modal 
                     id="projectModal"
                     visible={this.state.modalVisible}
-                    width="75%"
-                    height="75%"
+                    width="85%"
+                    height="85%"
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >

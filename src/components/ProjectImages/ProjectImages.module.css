@@ -5,13 +5,10 @@
     color: var(--nlv-white);
     display: block;
     margin: 30px auto;
+    max-width: 960px;
 }
 
 .images{
-    width: 70%;
-    height: fit-content;
-    display: block;
-    margin: 0 auto;   
-    font-size: 1.2rem;
-    font-family: 'Dosis';
+    width: 90%;
+    margin: 0 auto;
 }

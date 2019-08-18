@@ -8,9 +8,10 @@
         "intro": "You're looking at it right now! A personal portfolio site for web and game projects I have and will work on. Completely revamped and redesigned in August 2019.",
         "link": "https://github.com/CarNg/webdev-nlv-portfolio-2019",
         "images":{
-            "image1": "/images/sliderNlv1.png",
-            "image2": "/images/sliderNlv2.png",
-            "image3": "/images/sliderNlv3.png"
+            "Night Light Visuals Image 1": "/images/sliderNlv1.png",
+            "Night Light Visuals Image 2": "/images/sliderNlv2.png",
+            "Night Light Visuals Image 3": "/images/sliderNlv3.png",
+            "Night Light Visuals Image 4": "/images/sliderNlv4.png"
         },
         "projectKey": {
             "created using":"ReactJS",
@@ -31,8 +32,8 @@
         "intro": "A simple, responsive landing page designed to showcase the company's different services and websites from one location.",
         "link": "https://github.com/CarNg/webdev-rt-tech;https://carng.github.io/webdev-rt-tech/",
         "images":{
-            "image1": "/images/sliderRttech1.png",
-            "image2": "/images/sliderRttech2.png"
+            "RT Technology Landing Page Image 1": "/images/sliderRttech1.png",
+            "RT Technology Landing Page Image 2": "/images/sliderRttech2.png"
         },
         "projectKey": {
             "created using":"HTML5 - CSS3",
@@ -52,8 +53,9 @@
         "type": "Web",
         "intro": "A web application to accompany BabyPOS POS System where staff members and employers could access, review and update information on their POS system.",
         "images":{
-            "image1": "/images/briefNlv.png",
-            "image2": "/images/briefNlv.png"
+            "BabyPOS Web App Image 1": "/images/sliderBabypos1.png",
+            "BabyPOS Web App Image 2": "/images/sliderBabypos2.png",
+            "BabyPOS Web App Image 3": "/images/sliderBabypos3.png"
         },
         "projectKey": {
             "created using":"PHP - Bootstrap - jQuery - MySQL",

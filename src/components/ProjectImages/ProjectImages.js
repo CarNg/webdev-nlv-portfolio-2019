@@ -23,9 +23,7 @@ export default function ProjectImages(props) {
 
     const slideshow = imageArray.map((image, index) => {
         return (
-            <div key={index}>
-                <img src={image[1]} alt={image[0]}/>                
-            </div>
+            <img src={image[1]} alt={image[0]} key={index}/>                
         )
     });    
 
