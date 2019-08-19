@@ -26,20 +26,31 @@ export default function ProjectImages(props) {
 
     const slideshow = slideshowArray.map((slide, index) => {
         if(slide[0] === "Video"){
-            let src = "";
             if(slide[1] === "Hopscotch2"){
-                src = Hopscotch;
+                return (
+                    <div className={style.videoWrapper} key={index}>
+                        <video width="400" controls key={index}>
+                            <source src={Hopscotch} type="video/mp4" />
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                )
             }
             else if(slide[1] === "Circuits"){
-                src = Circuits;
-            }
-
+                return (
+                    <div className={style.videoWrapper} key={index}>
+                        <video width="400" controls key={index}>
+                            <source src={Circuits} type="video/mp4" />
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                )
+            }            
+        }
+        else if(slide[0].includes("YouTube")){
             return (
-                <div className={style.videoWrapper}>
-                    <video width="400" controls key={index}>
-                        <source src={src} type="video/mp4" />
-                        Your browser does not support HTML5 video.
-                    </video>
+                <div className={style.videoWrapper} key={index}>
+                    <iframe width="700" height="394" src={slide[1]} frameBorder="0" allowFullScreen title={slide[0]}></iframe>
                 </div>
             )
         }
@@ -48,6 +59,7 @@ export default function ProjectImages(props) {
                 <img src={slide[1]} alt={slide[0]} key={index}/>                
             )
         }
+        return null;
     });    
 
     return (

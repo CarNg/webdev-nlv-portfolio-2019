@@ -27,7 +27,7 @@ export default function ContactInfo() {
                     </div>
                     <p className={style.socialLabel}>Code Things</p>
                 </a>
-                <a href="https://nightlightvisuals.itch.io/" className={style.socialColumn}>
+                <a href="https://nightlightvisuals.itch.io/" className={style.socialColumn} target="_blank" rel="noopener noreferrer">
                     <div className={style.socialIcon}>
                             <img
                                 alt="Itch.io Icon"
@@ -36,7 +36,7 @@ export default function ContactInfo() {
                     </div>
                     <p className={style.socialLabel}>Game Things</p>
                 </a>  
-                <a href="https://www.linkedin.com/in/carng" className={style.socialColumn}>
+                <a href="https://www.linkedin.com/in/carng" className={style.socialColumn} target="_blank" rel="noopener noreferrer">
                     <div className={style.socialIcon}>
                         <img
                             alt="LinkedIn Icon"
@@ -45,7 +45,7 @@ export default function ContactInfo() {
                     </div>
                     <p className={style.socialLabel}>Career Things</p>
                 </a>
-                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA" className={style.socialColumn}>
+                <a href="https://www.youtube.com/channel/UCVcdn5DAeuBsahRK4Gk5XmA" className={style.socialColumn} target="_blank" rel="noopener noreferrer">
                     <div className={style.socialIcon}>
                         <img
                             alt="Youtube Icon"
@@ -54,7 +54,7 @@ export default function ContactInfo() {
                     </div>
                     <p className={style.socialLabel}>Video Things</p>
                 </a>
-                <a href="https://society6.com/carmenng" className={style.socialColumn}>
+                <a href="https://society6.com/carmenng" className={style.socialColumn} target="_blank" rel="noopener noreferrer">
                     <div className={style.socialIcon}>
                         <img
                             alt="Society6 Icon"

@@ -45,7 +45,8 @@ export default class ProjectBriefs extends Component {
     closeModal() {
         document.getElementById("projectModalScroll").scrollTop = 0;
         this.setState({
-            modalVisible : false
+            modalVisible : false,
+            projectSlideshow : []
         });
     }
 

@@ -99,6 +99,7 @@
         "intro": "Eden Isle: Resort Paradise is a multi-award winning F2P sim game that lets players build and manage a holiday resort.",
         "link": "https://www.edenislegame.com/",
         "slideshow":{
+            "Eden Isle: Resort Paradise Trailer YouTube": "https://www.youtube.com/embed/xnzwncLIHUc",
             "Eden Isle: Resort Paradise Image 1": "/images/sliderEdenIsle1.png",
             "Eden Isle: Resort Paradise Image 2": "/images/sliderEdenIsle2.png",
             "Eden Isle: Resort Paradise Image 3": "/images/sliderEdenIsle3.png",
@@ -172,6 +173,7 @@
         "intro": "Sketch! is a small 2D game where your goal is to woo your crush. Fill the swoon meter and get a date but be careful not to get caught or you'll be spending Friday night in detention instead.",
         "link": "https://github.com/CarNg/game-sketch-prototype",
         "slideshow":{
+            "Sketch! Gameplay YouTube": "https://www.youtube.com/embed/bfAe3hU1z3Y",
             "Sketch! Image 1": "/images/sliderSketch1.png",
             "Sketch! Image 2": "/images/sliderSketch2.png",
             "Sketch! Image 3": "/images/sliderSketch3.png"
@@ -196,6 +198,7 @@
         "intro": "This Time Around is an interactive story/exploration game based on the themes of forgiveness and memories. Players follow along Rachel Daniels' journey as she grows from an adolescent to an adult.",
         "link": "https://nightlightvisuals.itch.io/thistimearound",
         "slideshow":{
+            "This Time Around Trailer YouTube": "https://www.youtube.com/embed/L34cN04HhrU",
             "This Time Around Image 1": "/images/sliderTta1.png",
             "This Time Around Image 2": "/images/sliderTta2.png",
             "This Time Around Image 3": "/images/sliderTta3.png",
@@ -223,6 +226,7 @@
         "intro": "Arcade is a small Unity scene developed to demonstrate a number of skills; such as Mecanim animation, AI behaviour, GUI implementation, saving and loading that also features a physics mini-game called Turntable.",
         "link": "https://github.com/CarNg/game-arcade",
         "slideshow":{
+            "Arcade Gameplay YouTube": "https://www.youtube.com/embed/R3YjWGTcXiA",
             "Aracade Image 1": "/images/sliderArcade1.png"
         },
         "projectKey": {
@@ -291,6 +295,7 @@
         "link": "https://appadvice.com/app/pigeon-invasion/817549884",
         "slideshow":{
             "Pigeon Invasion Trailer YouTube": "https://www.youtube.com/embed/VFMDhCoYk1M",
+            "Pigeon Invasion Gameplay YouTube": "https://www.youtube.com/embed/ync7he_7YVU",
             "Pigeon Invasion 1": "/images/sliderPigeonInvasion1.png",
             "Pigeon Invasion 2": "/images/sliderPigeonInvasion2.png"
         },
