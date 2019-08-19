@@ -146,7 +146,7 @@ h5 {
 }
 
 .show {
-  display: table !important;
+  display: block !important;
 }
 
 .hide {

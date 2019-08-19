@@ -25,9 +25,9 @@ class ContactInfo extends React.Component {
     render(){
         return (
             <React.Fragment>
-                <Loading loadingText="Gathering those social links" hideShow={this.state.imageLoadCount === 5 ? "hide" : "show"}/>
+                <Loading loadingText="Gathering those social links" hideShow={this.state.imageLoadCount === 5 ? "hide" : ""}/>
 
-                <div className={[style.wrapper, `${this.state.imageLoadCount === 5 ? "show" : "hide"}}`].join(' ')}>
+                <div className={[this.state.imageLoadCount === 5 ? "show" : "hide", style.wrapper].join(' ')}>
                     <div className={style.emailRow}>
                         Got a question or wanna work together?<br/>
                         <a href="mailto:carmenng.media@gmail.com?Subject=Night%20Light%20Visuals" id={style.email}>

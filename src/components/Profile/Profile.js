@@ -1,7 +1,6 @@
 import React from 'react'
 import style from '../Profile/Profile.module.css'
 import profile from '../../assets/images/profile.png'
-import Loading from '../Loading/Loading'
 
 class Profile extends React.Component {
     constructor(props){

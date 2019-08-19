@@ -25,7 +25,7 @@ export default class About extends Component {
         return (
 
             <React.Fragment>
-                <Loading loadingText="Making myself presentable" hideShow={this.state.imageLoaded === false ? "show" : "hide"}/>
+                <Loading loadingText="Making myself presentable" hideShow={this.state.imageLoaded === false ? "" : "hide"}/>
                 <div className={`pageWrapper ${this.state.imageLoaded ? "show" : "hide"}`}>
                     <div style={{position: "absolute", top: "50%", transform: "translateY(-50%)"}}>
                         <Profile onImageLoad={this.imageLoadedHandler}/>
