@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from '../ProjectBriefs/ProjectBriefs.module.css'
 import Modal from 'react-awesome-modal';
 import ProjectPage from '../ProjectPage/ProjectPage';
+import Loading from '../Loading/Loading';
 import 'whatwg-fetch';
 
 export default class ProjectBriefs extends Component {
@@ -107,11 +108,7 @@ export default class ProjectBriefs extends Component {
 
         if (this.state.isLoading) {
             return (
-                <div id={style.loading}>
-                    <div className={style.ldsEllipsis}><div></div><div></div><div></div><div></div></div>
-                    <div id={style.loadingText}>Grabbing those projects for you</div>
-                    <div className={style.ldsEllipsis}><div></div><div></div><div></div><div></div></div>
-                </div>
+                <Loading loadingText="Grabbing those projects for you" />
             )
         }
 

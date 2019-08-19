@@ -1,31 +1,52 @@
-import React from 'react'
+import React, {Component} from 'react'
 import resume from '../assets/files/CarmenNgResume.pdf'
 import {Link} from 'react-router-dom'
 //Components
 import Profile from '../components/Profile/Profile';
 import Skills from '../components/Skills/Skills';
+import Loading from '../components/Loading/Loading';
 
-export default function About() {
-    return (
-        <div className="pageWrapper">
-            <div style={{position: "absolute", top: "50%", transform: "translateY(-50%)"}}>
-                <Profile/>
-                <Skills/>
-                <div style={buttonWrapper}>
-                    <a href={resume} target="_blank" rel="noopener noreferrer">
-                        <div style={button} className="button">
-                            view resume
+export default class About extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { 
+            imageLoaded : false
+        }
+        this.imageLoadedHandler = this.imageLoadedHandler.bind(this);
+    }
+
+    imageLoadedHandler() {
+        this.setState({ 
+            imageLoaded : true
+        });
+    }
+
+    render(){
+        return (
+
+            <React.Fragment>
+                <Loading loadingText="Making myself presentable" hideShow={this.state.imageLoaded === false ? "show" : "hide"}/>
+                <div className={`pageWrapper ${this.state.imageLoaded ? "show" : "hide"}`}>
+                    <div style={{position: "absolute", top: "50%", transform: "translateY(-50%)"}}>
+                        <Profile onImageLoad={this.imageLoadedHandler}/>
+                        <Skills/>
+                        <div style={buttonWrapper}>
+                            <a href={resume} target="_blank" rel="noopener noreferrer">
+                                <div style={button} className="button">
+                                    view resume
+                                </div>
+                            </a>
+                            <Link to="/contact">
+                                <div style={button} className="button">
+                                    let's talk
+                                </div>
+                            </Link>
                         </div>
-                    </a>
-                    <Link to="/contact">
-                        <div style={button} className="button">
-                            let's talk
-                        </div>
-                    </Link>
+                    </div>
                 </div>
-            </div>
-        </div>
-    )
+            </React.Fragment>
+        )
+    }
 }
 
 const button = {

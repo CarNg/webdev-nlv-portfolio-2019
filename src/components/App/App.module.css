@@ -3,4 +3,5 @@
     background: url('../../assets/images/background.jpg') no-repeat fixed center;
     height: 100%;
     background-size: cover;
+    overflow: hidden;
 }

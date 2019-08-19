@@ -144,3 +144,11 @@ h5 {
 .slick-next:before {
   color: var(--nlv-black) !important;
 }
+
+.show {
+  display: table !important;
+}
+
+.hide {
+  display: none !important;
+}
