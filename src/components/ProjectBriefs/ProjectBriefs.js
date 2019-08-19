@@ -10,7 +10,7 @@ export default class ProjectBriefs extends Component {
         this.state = {
             isLoading : true,
             modalVisible : false,
-            projectImages: [],
+            projectSlideshow: [],
             projectTitle: "",
             projectRole: "",
             projectDetails: "",
@@ -31,10 +31,10 @@ export default class ProjectBriefs extends Component {
             ));
     }
 
-    openModal(projectImages, projectTitle, projectRole, projectDetails, projectLink) {
+    openModal(projectSlideshow, projectTitle, projectRole, projectDetails, projectLink) {
         this.setState({
             modalVisible : true,
-            projectImages: projectImages,
+            projectSlideshow: projectSlideshow,
             projectTitle: projectTitle,
             projectRole: projectRole,
             projectDetails: projectDetails,
@@ -93,7 +93,7 @@ export default class ProjectBriefs extends Component {
                         </div>
                         <div className={style.readMore}>
                             <div className={[style.button, "button"].join(' ')}  onClick={() => (
-                                this.openModal(project.images, project.title, project.role, project.projectDetails, project.link)
+                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
                             )} >
                                 Learn More
                             </div>
@@ -128,7 +128,7 @@ export default class ProjectBriefs extends Component {
                         projectTitle={this.state.projectTitle} 
                         projectRole={this.state.projectRole} 
                         projectDetails={this.state.projectDetails} 
-                        projectImages={this.state.projectImages} 
+                        projectSlideshow={this.state.projectSlideshow} 
                         projectLink={this.state.projectLink}
                         onCloseClick={this.closeModal}
                     />

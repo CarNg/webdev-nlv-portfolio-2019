@@ -244,6 +244,7 @@
         "type": "Analog",
         "intro": "Circuits is a unique 3D abstract puzzle game that challenges players' spatial awareness. Players build circuits from all angles, race to be the first to reach their secret goal, and block any threats they see coming!",
         "slideshow":{
+            "Video" : "Circuits",
             "Circuits Image 1": "/images/sliderCircuits1.png",
             "Circuits Image 2": "/images/sliderCircuits2.png",
             "Circuits Image 3": "/images/sliderCircuits3.png"

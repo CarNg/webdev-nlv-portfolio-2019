@@ -8,7 +8,16 @@
     max-width: 960px;
 }
 
-.images{
+.slides{
     width: 90%;
     margin: 0 auto;
+}
+
+.videoWrapper{
+    max-width: 550px;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
 }

@@ -51,7 +51,7 @@ export default class ProjectPage extends Component {
 
         return (
             <div className={style.wrapper} id="projectModalScroll">
-                <ProjectImages projectImages={this.props.projectImages}/>
+                <ProjectImages projectSlideshow={this.props.projectSlideshow}/>
                 <div id={style.infoWrapper}>
                     <span id={style.projectTitle}>{this.props.projectTitle}</span>
                     <span id={style.projectSubtitle}>{this.props.projectRole}</span>
