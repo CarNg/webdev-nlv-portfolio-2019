@@ -267,7 +267,7 @@
         "type": "Analog",
         "intro": "Hopscotch 2: Elements was an 'unnecessary sequel' designed as part of a ludology class. The task was to find a game that was over 50 years old, determine its weak points and find solutions to create a stronger game.",
         "slideshow":{
-            "Hopscotch Image 1": "/images/sliderHopscotch1.png"
+            "Video": "Hopscotch2"
         },
         "projectKey": {
             "for":"2-4 players",
@@ -276,7 +276,7 @@
         "projectDetails": {
             "Summary":"The first step in designing Hopscotch 2 was to examine hopscotch and determine what the weaknesses were. We found that the main flaw of the game is its repetition and lack of player interaction. So our goal was to add variety and randomness to the game and to add player interaction. We achieved this by adding ways to affect other players and making the 'track' random.",
             "Gameplay":"The 'track' of Hopscotch 2 is made up of separate piece (this can be pieces of foam or paper). Each piece will have its own colour and be associated with a single element. The track is constructed in a randomised pattern and each player is assigned an element. The starting element on the track will determine which players' turn it is. This player must hop to the end of the track using only the pieces associated with their element. When they are on their second piece, they must pick up the starting piece on the track (they can stand on two feet but must not fall off) and carry it with them till the end of the track. Once they are there, they must place it down at the end. Therefore, creating a new pattern. Each player also gets a single use 'stone' that can be used to help them on more difficult patterns. Players may toss the stone on the track which will allow them to then hop on the piece that the stone lands on regardless of element type. If a player falls or steps on the wrong element, they are eliminated along with all their element pieces on the track. The aim is to be the last one standing.",
-            "Responsibilities":"Hopscotch 2 was a group project between me, Aisling Flynn, Philippa Kelly and Diana Volovei. The game was researched, designed and playtested collectively. However, the artwork in the images above was provided by Diana.",
+            "Responsibilities":"Hopscotch 2 was a group project between me, Aisling Flynn, Philippa Kelly and Diana Volovei. The game was researched, designed and playtested collectively.",
             "Experience": "We found that the new elements (pun intended) added to the game made it more fun and significantly more engaging. It created more interaction between players as other players' turn would affect the 'track' which also added strategy into the game. The changing of the tracks also made the game more challenging as player elimination would increase the difficulty. Player elimination was originally a concern of ours but it didn't become a problem since games were often short (and its fun watching people struggling not to fall too). The project was an interesting and informative exercise in game design. Being able to examine a game, find the weaknesses and come up with solutions is a vital skill and this project was a great example of that."
         }
     },
