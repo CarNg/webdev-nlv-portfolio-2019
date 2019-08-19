@@ -10,11 +10,10 @@ import Circuits from '../../assets/videos/Circuits.mp4';
 export default function ProjectImages(props) {
     const settings = {
         dots: true,
-        autoplaySpeed: 5000,
         speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         centerMode: true
     };
 
