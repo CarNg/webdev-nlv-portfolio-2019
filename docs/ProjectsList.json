@@ -19,7 +19,7 @@
         },
         "projectDetails": {
             "Summary":"A redesign was long overdue for Night Light Visuals so here it is. It was also long overdue for me to learn and become familiar with ReactJS and this was the perfect opportunity for me to kick it all off. All future web and game projects will be hosted here too so stay tuned as I continue to learn and grow my portfolio and resume.",
-            "Goal":"Create something that was much simpler, cleaner and more straight-forward. It also needed to be easily updatable and more importantly, responsive! Also, master ReactJS.",
+            "Goal":"Create something that was much simpler, cleaner and more straight-forward. It also needed to be easily updatable and more importantly, it needed to work on mobile! Also, master ReactJS.",
             "Approach":"In order to create a simpler, cleaner look, text was kept to a minimum (with the exception of project details) and vertical scrolling was avoided where possible. Since the website was built on ReactJS, it's made adding projects in the future incredibly easy. Project details are generated via a JSON file that is hosted on github and images are held in the public folder. This allows me to add projects without having to rebuild every time."
         }
     },
@@ -29,7 +29,7 @@
         "title": "RT-Technology",
         "role": "Web Desginer & Developer",
         "type": "Web",
-        "intro": "A simple, responsive landing page designed to showcase the company's different services and websites from one location.",
+        "intro": "A simple, adaptive landing page designed to showcase the company's different services and websites from one location.",
         "link": "https://github.com/CarNg/webdev-rt-tech;https://carng.github.io/webdev-rt-tech/",
         "slideshow":{
             "RT Technology Landing Page Image 1": "/images/sliderRttech1.png",
