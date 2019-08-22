@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import style from '../ProjectFilter/ProjectFilter.module.css';
 
-export default class ProjectFilter extends Component {
+export default class ProjectFilter extends PureComponent {
     constructor(props){
         super(props);
         this.handleFilterChange = this.handleFilterChange.bind(this);

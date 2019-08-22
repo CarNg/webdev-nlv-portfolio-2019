@@ -2,7 +2,7 @@ import React from 'react'
 import style from '../Profile/Profile.module.css'
 import profile from '../../assets/images/profile.jpg'
 
-class Profile extends React.Component {
+class Profile extends React.PureComponent {
     constructor(props){
         super(props);
         this.imageLoadedHandler = this.imageLoadedHandler.bind(this);

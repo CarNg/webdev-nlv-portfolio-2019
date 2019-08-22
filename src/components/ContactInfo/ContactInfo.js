@@ -8,7 +8,7 @@ import socialItch from '../../assets/images/socialItch.png';
 import socialGithub from '../../assets/images/socialGithub.png'
 import Loading from '../Loading/Loading';
 
-class ContactInfo extends React.Component {
+class ContactInfo extends React.PureComponent {
     constructor(props){
         super(props);
         this.state = {
@@ -25,7 +25,7 @@ class ContactInfo extends React.Component {
     render(){
         return (
             <React.Fragment>
-                <Loading loadingText="Gathering those social links" hideShow={this.state.imageLoadCount === 5 ? "hide" : ""}/>
+                <Loading loadingText="Making sure I've got everything" hideShow={this.state.imageLoadCount === 5 ? "hide" : ""}/>
 
                 <div className={[this.state.imageLoadCount === 5 ? "show" : "hide", style.wrapper].join(' ')}>
                     <div className={style.emailRow}>

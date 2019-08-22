@@ -42,7 +42,7 @@ html, body, #root {
 
 body {
   margin: 0;
-  font-family: 'Simplifica', BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: 'Simplifica', 'Dosis', BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
