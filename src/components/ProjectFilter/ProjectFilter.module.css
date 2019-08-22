@@ -13,3 +13,7 @@
     padding: 8px 9px;
     display: inline-block;
 }
+
+.selected {
+    border: 1.5px solid var(--nlv-cyan) !important;
+}

@@ -17,7 +17,7 @@ export default class Project extends Component {
     render(){
         return (
             <div className="pageWrapper" style={{overflow: "hidden"}}>
-                <ProjectFilter onFilterChange={this.handleFilterProjects} />
+                <ProjectFilter onFilterChange={this.handleFilterProjects} currentFilter={this.state.filter}/>
                 <ProjectBriefs filter={this.state.filter} />
             </div>
         )
