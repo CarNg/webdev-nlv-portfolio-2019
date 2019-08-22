@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../Profile/Profile.module.css'
-import profile from '../../assets/images/profile.png'
+import profile from '../../assets/images/profile.jpg'
 
 class Profile extends React.Component {
     constructor(props){

@@ -1,17 +1,17 @@
 [
     {
         "id": "201908",
-        "background": {"backgroundImage":"url(images/briefNlv.png)"},
+        "background": {"backgroundImage":"url(images/briefNlv.jpg)"},
         "title": "Night Light Visuals",
         "role": "Web Designer & Developer",
         "type": "Web",
         "intro": "You're looking at it right now! A personal portfolio site for web and game projects I have and will work on. Completely revamped and redesigned in August 2019.",
         "link": "https://github.com/CarNg/webdev-nlv-portfolio-2019",
         "slideshow":{
-            "Night Light Visuals Image 1": "/images/sliderNlv1.png",
-            "Night Light Visuals Image 2": "/images/sliderNlv2.png",
-            "Night Light Visuals Image 3": "/images/sliderNlv3.png",
-            "Night Light Visuals Image 4": "/images/sliderNlv4.png"
+            "Night Light Visuals Image 1": "/images/sliderNlv1.jpg",
+            "Night Light Visuals Image 2": "/images/sliderNlv2.jpg",
+            "Night Light Visuals Image 3": "/images/sliderNlv3.jpg",
+            "Night Light Visuals Image 4": "/images/sliderNlv4.jpg"
         },
         "projectKey": {
             "created using":"ReactJS",
@@ -25,15 +25,15 @@
     },
     {
         "id": "201704",
-        "background": {"backgroundImage":"url(images/briefRttech.png)"},
+        "background": {"backgroundImage":"url(images/briefRttech.jpg)"},
         "title": "RT-Technology",
         "role": "Web Desginer & Developer",
         "type": "Web",
         "intro": "A simple, responsive landing page designed to showcase the company's different services and websites from one location.",
         "link": "https://github.com/CarNg/webdev-rt-tech;https://carng.github.io/webdev-rt-tech/",
         "slideshow":{
-            "RT Technology Landing Page Image 1": "/images/sliderRttech1.png",
-            "RT Technology Landing Page Image 2": "/images/sliderRttech2.png"
+            "RT Technology Landing Page Image 1": "/images/sliderRttech1.jpg",
+            "RT Technology Landing Page Image 2": "/images/sliderRttech2.jpg"
         },
         "projectKey": {
             "created using":"HTML5 - CSS3",
@@ -47,15 +47,15 @@
     },
     {
         "id": "201703",
-        "background": {"backgroundImage":"url(images/briefBabypos.png)"},
+        "background": {"backgroundImage":"url(images/briefBabypos.jpg)"},
         "title": "BabyPOS Web App",
         "role": "Web Developer",
         "type": "Web",
         "intro": "A web application to accompany BabyPOS POS System where staff members and employers could access, review and update information on their POS system.",
         "slideshow":{
-            "BabyPOS Web App Image 1": "/images/sliderBabypos1.png",
-            "BabyPOS Web App Image 2": "/images/sliderBabypos2.png",
-            "BabyPOS Web App Image 3": "/images/sliderBabypos3.png"
+            "BabyPOS Web App Image 1": "/images/sliderBabypos1.jpg",
+            "BabyPOS Web App Image 2": "/images/sliderBabypos2.jpg",
+            "BabyPOS Web App Image 3": "/images/sliderBabypos3.jpg"
         },
         "projectKey": {
             "created using":"PHP - Bootstrap - jQuery - MySQL",
@@ -69,16 +69,16 @@
     },
     {
         "id": "201606",
-        "background": {"backgroundImage":"url(images/briefSusweet.png)"},
+        "background": {"backgroundImage":"url(images/briefSusweet.jpg)"},
         "title": "SuSweet",
         "role": "Web Developer",
         "type": "Web",
         "intro": "An online shop that we migrated from Magento to OpenCart and added a large number of customisations to to solve the issues the client was originally having.",
         "link": "https://www.susweet.com/",
         "slideshow":{
-            "SuSweet Image 1": "/images/sliderSusweet1.png",
-            "SuSweet Image 2": "/images/sliderSusweet2.png",
-            "SuSweet Image 3": "/images/sliderSusweet3.png"
+            "SuSweet Image 1": "/images/sliderSusweet1.jpg",
+            "SuSweet Image 2": "/images/sliderSusweet2.jpg",
+            "SuSweet Image 3": "/images/sliderSusweet3.jpg"
         },
         "projectKey": {
             "created using":"PHP - OpenCart",
@@ -92,7 +92,7 @@
     },
     {
         "id": "201504",
-        "background": {"backgroundImage":"url(images/briefEdenIsle.png)"},
+        "background": {"backgroundImage":"url(images/briefEdenIsle.jpg)"},
         "title": "Eden Isle",
         "role": "Game Designer",
         "type": "Digital",
@@ -100,10 +100,10 @@
         "link": "https://www.edenislegame.com/",
         "slideshow":{
             "Eden Isle: Resort Paradise Trailer YouTube": "https://www.youtube.com/embed/xnzwncLIHUc",
-            "Eden Isle: Resort Paradise Image 1": "/images/sliderEdenIsle1.png",
-            "Eden Isle: Resort Paradise Image 2": "/images/sliderEdenIsle2.png",
-            "Eden Isle: Resort Paradise Image 3": "/images/sliderEdenIsle3.png",
-            "Eden Isle: Resort Paradise Image 4": "/images/sliderEdenIsle4.png"
+            "Eden Isle: Resort Paradise Image 1": "/images/sliderEdenIsle1.jpg",
+            "Eden Isle: Resort Paradise Image 2": "/images/sliderEdenIsle2.jpg",
+            "Eden Isle: Resort Paradise Image 3": "/images/sliderEdenIsle3.jpg",
+            "Eden Isle: Resort Paradise Image 4": "/images/sliderEdenIsle4.jpg"
         },
         "projectKey": {
             "available on":"iOS",
@@ -118,15 +118,15 @@
     },
     {
         "id": "201502",
-        "background": {"backgroundImage":"url(images/briefAbst.png)"},
+        "background": {"backgroundImage":"url(images/briefAbst.jpg)"},
         "title": "Anything But Small Talk",
         "role": "Game Designer",
         "type": "Analog",
         "intro": "Anything But Small Talk is a storytelling card game based on the themes of memory and misdirection. It was designed to encourage conversation between players, especially the listening aspect of conversation.",
         "slideshow":{
-            "Anything But Small Talk Image 1": "/images/sliderAbst1.png",
-            "Anything But Small Talk Image 2": "/images/sliderAbst2.png",
-            "Anything But Small Talk Image 3": "/images/sliderAbst3.png"
+            "Anything But Small Talk Image 1": "/images/sliderAbst1.jpg",
+            "Anything But Small Talk Image 2": "/images/sliderAbst2.jpg",
+            "Anything But Small Talk Image 3": "/images/sliderAbst3.jpg"
         },
         "projectKey": {
             "for":"4+ players",
@@ -141,18 +141,18 @@
     },
     {
         "id": "201501",
-        "background": {"backgroundImage":"url(images/briefNlv2015.png)"},
+        "background": {"backgroundImage":"url(images/briefNlv2015.jpg)"},
         "title": "Night Light Visuals 2015",
         "role": "Web Designer & Developer",
         "type": "Web",
         "intro": "An older version of my personal portfolio website first designed and developed back in 2015.",
         "link": "https://github.com/CarNg/webdev-nlv-portfolio-2015;https://carng.github.io/webdev-nlv-portfolio-2015/public_html/index.html",
         "slideshow":{
-            "Night Light Visuals 2015 Image 1": "/images/sliderNlv20151.png",
-            "Night Light Visuals 2015 Image 2": "/images/sliderNlv20152.png",
-            "Night Light Visuals 2015 Image 3": "/images/sliderNlv20153.png",
-            "Night Light Visuals 2015 Image 4": "/images/sliderNlv20154.png",
-            "Night Light Visuals 2015 Image 5": "/images/sliderNlv20155.png"
+            "Night Light Visuals 2015 Image 1": "/images/sliderNlv20151.jpg",
+            "Night Light Visuals 2015 Image 2": "/images/sliderNlv20152.jpg",
+            "Night Light Visuals 2015 Image 3": "/images/sliderNlv20153.jpg",
+            "Night Light Visuals 2015 Image 4": "/images/sliderNlv20154.jpg",
+            "Night Light Visuals 2015 Image 5": "/images/sliderNlv20155.jpg"
         },
         "projectKey": {
             "created using":"HTML - CSS - JavaScript - jQuery",
@@ -166,7 +166,7 @@
     },
     {
         "id": "201412",
-        "background": {"backgroundImage":"url(images/briefSketch.png)"},
+        "background": {"backgroundImage":"url(images/briefSketch.jpg)"},
         "title": "Sketch!",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -174,9 +174,9 @@
         "link": "https://github.com/CarNg/game-sketch-prototype",
         "slideshow":{
             "Sketch! Gameplay YouTube": "https://www.youtube.com/embed/bfAe3hU1z3Y",
-            "Sketch! Image 1": "/images/sliderSketch1.png",
-            "Sketch! Image 2": "/images/sliderSketch2.png",
-            "Sketch! Image 3": "/images/sliderSketch3.png"
+            "Sketch! Image 1": "/images/sliderSketch1.jpg",
+            "Sketch! Image 2": "/images/sliderSketch2.jpg",
+            "Sketch! Image 3": "/images/sliderSketch3.jpg"
         },
         "projectKey": {
             "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
@@ -191,7 +191,7 @@
     },
     {
         "id": "201411",
-        "background": {"backgroundImage":"url(images/briefTta.png)"},
+        "background": {"backgroundImage":"url(images/briefTta.jpg)"},
         "title": "This Time Around",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -199,12 +199,12 @@
         "link": "https://nightlightvisuals.itch.io/thistimearound",
         "slideshow":{
             "This Time Around Trailer YouTube": "https://www.youtube.com/embed/L34cN04HhrU",
-            "This Time Around Image 1": "/images/sliderTta1.png",
-            "This Time Around Image 2": "/images/sliderTta2.png",
-            "This Time Around Image 3": "/images/sliderTta3.png",
-            "This Time Around Image 4": "/images/sliderTta4.png",
-            "This Time Around Image 5": "/images/sliderTta5.png",
-            "This Time Around Image 6": "/images/sliderTta6.png"
+            "This Time Around Image 1": "/images/sliderTta1.jpg",
+            "This Time Around Image 2": "/images/sliderTta2.jpg",
+            "This Time Around Image 3": "/images/sliderTta3.jpg",
+            "This Time Around Image 4": "/images/sliderTta4.jpg",
+            "This Time Around Image 5": "/images/sliderTta5.jpg",
+            "This Time Around Image 6": "/images/sliderTta6.jpg"
         },
         "projectKey": {
             "available on":"Windows - MacOS",
@@ -219,7 +219,7 @@
     },
     {
         "id": "201410",
-        "background": {"backgroundImage":"url(images/briefTurntable.png)"},
+        "background": {"backgroundImage":"url(images/briefTurntable.jpg)"},
         "title": "Arcade ft. Turntable",
         "role": "Game Designer & Developer",
         "type": "Digital",
@@ -242,16 +242,16 @@
     },
     {
         "id": "201409",
-        "background": {"backgroundImage":"url(images/briefCircuits.png)"},
+        "background": {"backgroundImage":"url(images/briefCircuits.jpg)"},
         "title": "Circuits",
         "role": "Game Designer",
         "type": "Analog",
         "intro": "Circuits is a unique 3D abstract puzzle game that challenges players' spatial awareness. Players build circuits from all angles, race to be the first to reach their secret goal, and block any threats they see coming!",
         "slideshow":{
             "Video" : "Circuits",
-            "Circuits Image 1": "/images/sliderCircuits1.png",
-            "Circuits Image 2": "/images/sliderCircuits2.png",
-            "Circuits Image 3": "/images/sliderCircuits3.png"
+            "Circuits Image 1": "/images/sliderCircuits1.jpg",
+            "Circuits Image 2": "/images/sliderCircuits2.jpg",
+            "Circuits Image 3": "/images/sliderCircuits3.jpg"
         },
         "projectKey": {
             "for":"2-4 players",
@@ -266,7 +266,7 @@
     },
     {
         "id": "201408",
-        "background": {"backgroundImage":"url(images/briefHopscotch.png)"},
+        "background": {"backgroundImage":"url(images/briefHopscotch.jpg)"},
         "title": "Hopscotch 2: Elements",
         "role": "Game Designer",
         "type": "Analog",
@@ -287,7 +287,7 @@
     },
     {
         "id": "201407",
-        "background": {"backgroundImage":"url(images/briefPigeon.png)"},
+        "background": {"backgroundImage":"url(images/briefPigeon.jpg)"},
         "title": "Pigeon Invasion",
         "role": "Game Developer and Producer",
         "type": "Digital",
@@ -296,8 +296,8 @@
         "slideshow":{
             "Pigeon Invasion Trailer YouTube": "https://www.youtube.com/embed/VFMDhCoYk1M",
             "Pigeon Invasion Gameplay YouTube": "https://www.youtube.com/embed/ync7he_7YVU",
-            "Pigeon Invasion 1": "/images/sliderPigeonInvasion1.png",
-            "Pigeon Invasion 2": "/images/sliderPigeonInvasion2.png"
+            "Pigeon Invasion 1": "/images/sliderPigeonInvasion1.jpg",
+            "Pigeon Invasion 2": "/images/sliderPigeonInvasion2.jpg"
         },
         "projectKey": {
             "available on":"iOS (now offline)",
