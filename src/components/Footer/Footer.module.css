@@ -8,6 +8,7 @@ footer {
   color: var(--nlv-white);
   line-height: 25px;
   letter-spacing: 0.15em;
+  z-index: 2;
 }
 
 footer > a{

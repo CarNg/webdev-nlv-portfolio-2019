@@ -86,7 +86,7 @@ class ContactInfo extends React.PureComponent {
                             </div>
                             <p className={style.socialLabel}>Print Things</p>
                         </a>
-                    </div>       
+                    </div>
                 </div>
             </React.Fragment>
         )

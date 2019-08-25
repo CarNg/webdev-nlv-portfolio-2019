@@ -1,23 +1,45 @@
+@media only screen and (min-width: 768px) {
+    #profile img{
+        border: 2px solid var(--nlv-red);
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 25px auto;
+    }
+
+    #profileText{
+        width: calc(85% - 40px);
+        padding: 0px 20px;
+        font: 18px 'Dosis';
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #profile img{
+        border: 2px solid var(--nlv-red);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #profileText{
+        width: calc(90%);
+        padding: 0px;
+        font: 15px 'Dosis';
+    }
+}
+
 #profileWrapper{
     width: 100%;
     margin: 0px auto;
 }
 
-#profile img{
-    border: 2px solid var(--nlv-red);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 25px auto;
-}
-
 #profileText{
-    width: calc(85% - 40px);
     color: var(--nlv-white);
-    font: 18px 'Dosis';
     text-align: center;
-    padding: 0px 20px;
     margin: 0px auto;
 }
 

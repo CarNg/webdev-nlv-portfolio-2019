@@ -32,11 +32,71 @@ html, body, #root {
   html, body, #root {
     font-size: 15px;
   }
+
+  .pageWrapper::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  h1{
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 12rem;
+    margin: 0px;
+    line-height: 18px;
+    color: var(--nlv-white);
+    padding-top: 75px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 3.6rem;
+    letter-spacing: 1.4px;
+    margin-bottom: 0px;
+    color: var(--nlv-cyan);
+    margin-left: 5px;
+  }
+
+  h5 {
+    color: var(--nlv-gray);
+    font-weight: normal;
+    font-size: 1.8em;
+    margin: 20px 0px 0px 0px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   html, body, #root {
     font-size: 11px;
+  }
+
+  .pageWrapper::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  h1{
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 6.5rem;
+    margin: 0px;
+    line-height: 25px;
+    color: var(--nlv-white);
+    padding-top: 0px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 1.4px;
+    margin-bottom: 0px;
+    color: var(--nlv-cyan);
+    line-height: 0.9rem;
+  }
+
+  h5 {
+    color: var(--nlv-gray);
+    font-weight: normal;
+    font-size: 1.6em;
+    margin: 20px 0px 0px 0px;
   }
 }
 
@@ -59,10 +119,6 @@ body {
   overflow: auto;
   margin: 0px auto;
   position: relative;
-}
-
-.pageWrapper::-webkit-scrollbar {
-  width: 8px;
 }
 
 .pageWrapper::-webkit-scrollbar-track {
@@ -96,35 +152,6 @@ body {
   border: 1.5px solid var(--nlv-cyan);
 }
 
-a{
-  color: var(--nlv-white);
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration-line: underline;
-  text-decoration-color: var(--nlv-cyan);
-}
-
-h1{
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-size: 12rem;
-    margin: 0px;
-    line-height: 18px;
-    color: var(--nlv-white);
-    padding-top: 75px;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 3.6rem;
-  letter-spacing: 1.4px;
-  margin-bottom: 0px;
-  color: var(--nlv-cyan);
-  margin-left: 5px;
-}
-
 h4 {
   font-weight: 500;
   font-size: 2.5rem;
@@ -133,11 +160,14 @@ h4 {
   color: var(--nlv-red);
 }
 
-h5 {
-  color: var(--nlv-gray);
-  font-weight: normal;
-  font-size: 1.8em;
-  margin: 20px 0px 0px 0px;
+a{
+  color: var(--nlv-white);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration-line: underline;
+  text-decoration-color: var(--nlv-cyan);
 }
 
 .slick-prev:before,
