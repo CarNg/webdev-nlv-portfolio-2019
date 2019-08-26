@@ -54,7 +54,7 @@ class Header extends React.Component {
 		}
 		
 		const email = {
-			fontSize: "2.8rem",
+			fontSize: "2.6rem",
 			position: "absolute",
 			left: "50%",
 			bottom: "220px",
