@@ -85,7 +85,9 @@ export default class ProjectBriefs extends Component {
             if(this.props.filter === "" || this.props.filter === project.type){
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
-                    <div style={project.background} className={style.background} />
+                    <div style={project.background} className={style.background} onClick={() => (
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                    )}/>
 
                     <div className={`${style.projectInfo} ${colorCode}`}>
                         <span className={style.projectTitle}>{project.title}</span>
@@ -106,7 +108,9 @@ export default class ProjectBriefs extends Component {
             else if(this.props.filter === "Games" && (project.type === "Digital" || project.type === "Analog")){
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
-                    <div style={project.background} className={style.background} />
+                    <div style={project.background} className={style.background} onClick={() => (
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                    )}/>
 
                     <div className={`${style.projectInfo} ${colorCode}`}>
                         <span className={style.projectTitle}>{project.title}</span>
