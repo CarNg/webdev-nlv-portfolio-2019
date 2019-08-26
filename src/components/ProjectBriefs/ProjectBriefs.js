@@ -80,9 +80,30 @@ export default class ProjectBriefs extends Component {
                 )
             }); 
 
-            //Project brief gneration dependant on filter
+            //Project brief generation dependant on filter
             let projectBrief = null;
             if(this.props.filter === "" || this.props.filter === project.type){
+                projectBrief = 
+                <div key={project.id} className={style.projectBrief}>
+                    <div style={project.background} className={style.background} />
+
+                    <div className={`${style.projectInfo} ${colorCode}`}>
+                        <span className={style.projectTitle}>{project.title}</span>
+                        <span className={style.projectRole}>{project.role}</span>
+                        <div className={style.blurb}>
+                            <p>{project.intro} {keyList}</p>
+                        </div>
+                        <div className={style.readMore}>
+                            <div className={[style.button, "button"].join(' ')}  onClick={() => (
+                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                            )} >
+                                Learn More
+                            </div>
+                        </div>
+                    </div>
+                </div>;
+            }
+            else if(this.props.filter === "Games" && (project.type === "Digital" || project.type === "Analog")){
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
                     <div style={project.background} className={style.background} />
