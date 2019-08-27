@@ -3,6 +3,7 @@ import style from '../ProjectBriefs/ProjectBriefs.module.css'
 import Modal from 'react-awesome-modal';
 import ProjectPage from '../ProjectPage/ProjectPage';
 import Loading from '../Loading/Loading';
+import MediaQuery from 'react-responsive';
 import 'whatwg-fetch';
 
 export default class ProjectBriefs extends Component {
@@ -139,23 +140,47 @@ export default class ProjectBriefs extends Component {
 
         return (
             <React.Fragment>
-                <Modal 
-                    id="projectModal"
-                    visible={this.state.modalVisible}
-                    width="85%"
-                    height="85%"
-                    effect="fadeInUp"
-                    onClickAway={() => this.closeModal()}
-                >
-                    <ProjectPage 
-                        projectTitle={this.state.projectTitle} 
-                        projectRole={this.state.projectRole} 
-                        projectDetails={this.state.projectDetails} 
-                        projectSlideshow={this.state.projectSlideshow} 
-                        projectLink={this.state.projectLink}
-                        onCloseClick={this.closeModal}
-                    />
-                </Modal>
+                <MediaQuery query="(min-device-width: 768px)">
+                    <Modal 
+                        id="projectModal"
+                        visible={this.state.modalVisible}
+                        width="85%"
+                        height="85%"
+                        effect="fadeInUp"
+                        onClickAway={() => this.closeModal()}
+                    >
+                        <ProjectPage 
+                            projectTitle={this.state.projectTitle} 
+                            projectRole={this.state.projectRole} 
+                            projectDetails={this.state.projectDetails} 
+                            projectSlideshow={this.state.projectSlideshow} 
+                            projectLink={this.state.projectLink}
+                            onCloseClick={this.closeModal}
+                        />
+                    </Modal>
+                </MediaQuery>
+                
+                <MediaQuery query="(max-device-width: 767px)">
+                    <Modal 
+                        id="projectModal"
+                        visible={this.state.modalVisible}
+                        width="95%"
+                        height="95%"
+                        effect="fadeInUp"
+                        onClickAway={() => this.closeModal()}
+                    >
+                        <ProjectPage 
+                            projectTitle={this.state.projectTitle} 
+                            projectRole={this.state.projectRole} 
+                            projectDetails={this.state.projectDetails} 
+                            projectSlideshow={this.state.projectSlideshow} 
+                            projectLink={this.state.projectLink}
+                            onCloseClick={this.closeModal}
+                        />
+                    </Modal>
+                </MediaQuery>
+                
+                    
                 <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
                     {projects}        
                 </div>

@@ -38,13 +38,13 @@ export default class ProjectPage extends Component {
             let links = this.props.projectLink.split(";");
             externalLink = links.map((link, index) => {
                 if(link.includes("github") && !link.includes(".io")){
-                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Examine Code </div></a>
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')}> Examine Code </div></a>
                 }
                 else if(link.includes("itch")){
-                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Play Now </div></a>
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')}> Play Now </div></a>
                 }
                 else{
-                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')} style={{marginLeft: "15px"}}> Visit Site </div></a>
+                    return <a href={link} target="_blank" rel="noopener noreferrer" key={index}><div className={[style.button, "button"].join(' ')}> Visit Site </div></a>
                 }
             });
         }

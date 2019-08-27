@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Hopscotch from '../../assets/videos/Hopscotch2.mp4';
 import Circuits from '../../assets/videos/Circuits.mp4';
-
+import MediaQuery from 'react-responsive';
 
 export default function ProjectImages(props) {
     const settings = {
@@ -13,8 +13,15 @@ export default function ProjectImages(props) {
         speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
         centerMode: true
+    };
+
+    const mobileSettings = {
+        dots: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
     };
 
     let slideshowObject = props.projectSlideshow;
@@ -64,9 +71,18 @@ export default function ProjectImages(props) {
     return (
         <div id={style.wrapper}>
             <div className={style.slides}>
+            <MediaQuery query="(min-device-width: 768px)">
                 <Slider {...settings}>
                     {slideshow}
                 </Slider>
+            </MediaQuery>
+
+            <MediaQuery query="(max-device-width: 767px)">
+                <Slider {...mobileSettings}>
+                    {slideshow}
+                </Slider>
+            </MediaQuery>
+                
             </div>
         </div>
     )
