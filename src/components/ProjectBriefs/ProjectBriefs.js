@@ -17,7 +17,8 @@ export default class ProjectBriefs extends Component {
             projectRole: "",
             projectDetails: "",
             projectLink: "",
-            projectList: []
+            projectList: [],
+            projectBlurb: null
         }
         this.closeModal = this.closeModal.bind(this);
     }
@@ -33,14 +34,15 @@ export default class ProjectBriefs extends Component {
             ));
     }
 
-    openModal(projectSlideshow, projectTitle, projectRole, projectDetails, projectLink) {
+    openModal(projectSlideshow, projectTitle, projectRole, projectDetails, projectLink, projectBlurb) {
         this.setState({
             modalVisible : true,
             projectSlideshow: projectSlideshow,
             projectTitle: projectTitle,
             projectRole: projectRole,
             projectDetails: projectDetails,
-            projectLink: projectLink
+            projectLink: projectLink,
+            projectBlurb: projectBlurb
         });
     }
 
@@ -87,18 +89,20 @@ export default class ProjectBriefs extends Component {
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
                     <div style={project.background} className={style.background} onClick={() => (
-                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
                     )}/>
 
-                    <div className={`${style.projectInfo} ${colorCode}`}>
+                    <div className={`${style.projectInfo} ${colorCode}`} onClick={() => (
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                    )}>
                         <span className={style.projectTitle}>{project.title}</span>
                         <span className={style.projectRole}>{project.role}</span>
                         <div className={style.blurb}>
-                            <p>{project.intro} {keyList}</p>
+                            <p>{project.intro}{keyList}</p>
                         </div>
                         <div className={style.readMore}>
                             <div className={[style.button, "button"].join(' ')}  onClick={() => (
-                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
                             )} >
                                 Learn More
                             </div>
@@ -110,22 +114,14 @@ export default class ProjectBriefs extends Component {
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
                     <div style={project.background} className={style.background} onClick={() => (
-                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
                     )}/>
 
-                    <div className={`${style.projectInfo} ${colorCode}`}>
+                    <div className={`${style.projectInfo} ${colorCode}`} onClick={() => (
+                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                    )}>
                         <span className={style.projectTitle}>{project.title}</span>
                         <span className={style.projectRole}>{project.role}</span>
-                        <div className={style.blurb}>
-                            <p>{project.intro} {keyList}</p>
-                        </div>
-                        <div className={style.readMore}>
-                            <div className={[style.button, "button"].join(' ')}  onClick={() => (
-                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link)
-                            )} >
-                                Learn More
-                            </div>
-                        </div>
                     </div>
                 </div>;
             }
@@ -155,6 +151,7 @@ export default class ProjectBriefs extends Component {
                             projectDetails={this.state.projectDetails} 
                             projectSlideshow={this.state.projectSlideshow} 
                             projectLink={this.state.projectLink}
+                            projectBlurb={this.state.projectBlurb}
                             onCloseClick={this.closeModal}
                         />
                     </Modal>
@@ -164,8 +161,8 @@ export default class ProjectBriefs extends Component {
                     <Modal 
                         id="projectModal"
                         visible={this.state.modalVisible}
-                        width="95%"
-                        height="95%"
+                        width="90%"
+                        height="90%"
                         effect="fadeInUp"
                         onClickAway={() => this.closeModal()}
                     >
@@ -175,6 +172,7 @@ export default class ProjectBriefs extends Component {
                             projectDetails={this.state.projectDetails} 
                             projectSlideshow={this.state.projectSlideshow} 
                             projectLink={this.state.projectLink}
+                            projectBlurb={this.state.projectBlurb}
                             onCloseClick={this.closeModal}
                         />
                     </Modal>

@@ -21,7 +21,8 @@ export default function ProjectImages(props) {
         speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: false,
+        adaptiveHeight: true
     };
 
     let slideshowObject = props.projectSlideshow;

@@ -38,13 +38,13 @@ class Header extends React.Component {
 			tableLayout: "fixed",
 			position: "absolute",
 			left: "50%",
-			bottom: "170px",
+			bottom: "115px",
 			transform: "translateX(-50%)"
         }
     
         const socialIcon = {
-            width: "35px",
-            height: "35px",
+            width: "30px",
+            height: "30px",
 			padding: "0px 0px",
 			margin: "0 auto"
         }
@@ -54,10 +54,10 @@ class Header extends React.Component {
 		}
 		
 		const email = {
-			fontSize: "2.6rem",
+			fontSize: "2.3rem",
 			position: "absolute",
 			left: "50%",
-			bottom: "220px",
+			bottom: "145px",
 			transform: "translateX(-50%)",
 			marginBottom: "10px"
 		}

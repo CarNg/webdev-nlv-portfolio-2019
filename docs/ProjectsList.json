@@ -14,8 +14,8 @@
             "Night Light Visuals Image 4": "/images/sliderNlv4.jpg"
         },
         "projectKey": {
-            "created using":"ReactJS",
-            "for": "Night Light Visuals"
+            "Created using":"ReactJS",
+            "For": "Night Light Visuals"
         },
         "projectDetails": {
             "Summary":"A redesign was long overdue for Night Light Visuals so here it is. It was also long overdue for me to learn and become familiar with ReactJS and this was the perfect opportunity for me to kick it all off. All future web and game projects will be hosted here too so stay tuned as I continue to learn and grow my portfolio and resume.",
@@ -36,8 +36,8 @@
             "RT Technology Landing Page Image 2": "/images/sliderRttech2.jpg"
         },
         "projectKey": {
-            "created using":"HTML5 - CSS3",
-            "for": "RT-Technology Idea Ltd."
+            "Created using":"HTML5 - CSS3",
+            "For": "RT-Technology Idea Ltd."
         },
         "projectDetails": {
             "Summary":"RT-Technology Idea Ltd. provides a number of services, each with their own dedicated website, so it was important for them to have just one location for potential clients to access all the information on these services.",
@@ -58,8 +58,8 @@
             "BabyPOS Web App Image 3": "/images/sliderBabypos3.jpg"
         },
         "projectKey": {
-            "created using":"PHP - Bootstrap - jQuery - MySQL",
-            "for": "RT-Technology Idea Ltd."
+            "Created using":"PHP - Bootstrap - jQuery - MySQL",
+            "For": "RT-Technology Idea Ltd."
         },
         "projectDetails": {
             "Summary":"The accompaniment for BabyPOS POS System allowed users to review daily, weekly and monthly sales, view and edit product details and update stock information. Users could also view and edit staff members', shop members' and vendors' information and records depending on the permissions set for each individual login account.",
@@ -81,8 +81,8 @@
             "SuSweet Image 3": "/images/sliderSusweet3.jpg"
         },
         "projectKey": {
-            "created using":"PHP - OpenCart",
-            "for": "SuSweet"
+            "Created using":"PHP - OpenCart",
+            "For": "SuSweet"
         },
         "projectDetails": {
             "Summary":"Susweet was an online shop that was originally hosted on Magento eCommerce. However, the client wished to migrate to OpenCart as he saw some features and plugins available on OpenCart that better suited his needs.",
@@ -106,8 +106,8 @@
             "Eden Isle: Resort Paradise Image 4": "/images/sliderEdenIsle4.jpg"
         },
         "projectKey": {
-            "available on":"iOS",
-            "for":"Simteractive"
+            "Available on":"iOS",
+            "For":"Simteractive"
         },
         "projectDetails": {
             "Summary":"Eden Isle: Resort Paradise is the debut release of Dublin-based game development studio, Simteractive and is available now on the App Store. It is a free to play building sim game that allows users to build and manage a holiday resort.",
@@ -129,7 +129,7 @@
             "Anything But Small Talk Image 3": "/images/sliderAbst3.jpg"
         },
         "projectKey": {
-            "for":"4+ players",
+            "For":"4+ players",
             "to play in": "~15minutes per player"
         },
         "projectDetails": {
@@ -155,8 +155,8 @@
             "Night Light Visuals 2015 Image 5": "/images/sliderNlv20155.jpg"
         },
         "projectKey": {
-            "created using":"HTML - CSS - JavaScript - jQuery",
-            "for": "Night Light Visuals"
+            "Created using":"HTML - CSS - JavaScript - jQuery",
+            "For": "Night Light Visuals"
         },
         "projectDetails": {
             "Summary":"This was one of the original portfolio websites developed for Night List Visuals.",
@@ -179,8 +179,8 @@
             "Sketch! Image 3": "/images/sliderSketch3.jpg"
         },
         "projectKey": {
-            "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
-            "created using": "Unity - Photoshop"
+            "Available on":"Unity Webplayer (WebGL version and playable link coming soon)",
+            "Created using": "Unity - Photoshop"
         },
         "projectDetails": {
             "Summary":"Sketch! was developed as part of a game design and Unity exercise. The task was to brainstorm a list of random themes and develop each theme with a mind map. Next, narrow it down to one theme, design some basic mechanics associated with the theme and finally, create a 2D game. My theme was 'School' and the result was Sketch!",
@@ -207,8 +207,8 @@
             "This Time Around Image 6": "/images/sliderTta6.jpg"
         },
         "projectKey": {
-            "available on":"Windows - MacOS",
-            "created using": "Unity"
+            "Available on":"Windows - MacOS",
+            "Created using": "Unity"
         },
         "projectDetails": {
             "Summary":"Alden Nowlan's quote 'The day the child realizes that all adults are imperfect, he becomes an adolescent; the day he forgives them, he becomes an adult; the day he forgives himself, he becomes wise.' makes up the backbone of the narrative for This Time Around. The inspiration for the story of This Time Around is actually a personal one. As someone who has trouble remembering their childhood, the idea of discovering it all again (essentially, for the first time) was fascinating to me and I wanted to pursue the idea that by revisiting your past you can learn and see things in a new perspective that you may have never considered before. As a player, you adopt the characters you play. Often times, players don't know the characters' history or background and you discover these things on your own and in your own time. Much like if I were to delve into my own childhood, most of which I don't remember, and that's how This Time Around came to be.",
@@ -230,8 +230,8 @@
             "Aracade Image 1": "/images/sliderArcade1.png"
         },
         "projectKey": {
-            "available on":"Unity Webplayer (WebGL version and playable link coming soon)",
-            "created using": "Unity"
+            "Available on":"Unity Webplayer (WebGL version and playable link coming soon)",
+            "Created using": "Unity"
         },
         "projectDetails": {
             "Summary":" Arcade was developed from a programming POV rather than game design. The goal was to include a number of different features to demonstrate different skills learned rather than focus on creating something fun.",
@@ -254,7 +254,7 @@
             "Circuits Image 3": "/images/sliderCircuits3.jpg"
         },
         "projectKey": {
-            "for":"2-4 players",
+            "For":"2-4 players",
             "to play in": "~20minutes"
         },
         "projectDetails": {
@@ -275,7 +275,7 @@
             "Video": "Hopscotch2"
         },
         "projectKey": {
-            "for":"2-4 players",
+            "For":"2-4 players",
             "to play in": "~15minutes"
         },
         "projectDetails": {
@@ -300,9 +300,9 @@
             "Pigeon Invasion 2": "/images/sliderPigeonInvasion2.jpg"
         },
         "projectKey": {
-            "available on":"iOS (now offline)",
-            "created using": "-GameSalad",
-            "for": "DIT"
+            "Available on":"iOS (now offline)",
+            "Created using": "-GameSalad",
+            "For": "DIT"
         },
         "projectDetails": {
             "Summary":"Pigeon Invasion was a three month project that was aimed to gain experience in the full process of creating an app from scratch to releasing the game on the App Store and promoting the game afterwards.",

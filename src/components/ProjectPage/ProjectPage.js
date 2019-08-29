@@ -49,6 +49,27 @@ export default class ProjectPage extends Component {
             });
         }
 
+        //Project key generation 
+        let projectBlurb = null;
+        let projectKeyObj = this.props.projectBlurb;
+        if(projectKeyObj){
+            var keyArray = Object.keys(projectKeyObj).map(function(key) {
+                return [key, projectKeyObj[key]];
+            });
+        
+            projectBlurb = keyArray.map((keyItem, index) => {
+                return (
+                    <React.Fragment key={index}>
+                        <i><span style={{color: "var(--nlv-red)", fontWeight: "600"}}> {keyItem[0]} </span>
+                        <br/>
+                        <span> {keyItem[1]} </span></i>
+                        <br/>
+                    </React.Fragment>
+                )
+            });
+        }
+        
+
         return (
             <div className={style.wrapper} id="projectModalScroll">
                 <ProjectImages projectSlideshow={this.props.projectSlideshow}/>
@@ -57,6 +78,9 @@ export default class ProjectPage extends Component {
                     <span id={style.projectSubtitle}>{this.props.projectRole}</span>
                     <br/>
                     <div id={style.projectDetails}>
+                        <div className={style.projectBlurb}>
+                            {projectBlurb}
+                        </div>
                         {details}
                     </div>
                     <br/>

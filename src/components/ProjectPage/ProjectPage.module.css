@@ -4,6 +4,10 @@
         padding: 40px 80px;
     }
 
+    #projectSubtitle {
+        font-size: 1.5rem;
+    }
+
     .columnTitle{
         display: inline-block;
         width: 120px;
@@ -19,6 +23,7 @@
         width: calc(100% - 135px);
         text-align: left;
         margin-top: 15px;
+        font-size: 1.1rem;
     }
 
     .button{
@@ -30,7 +35,19 @@
 @media only screen and (max-width: 767px) {
     #infoWrapper {
         width: calc(100% - 40px);
-        padding: 20px;
+        padding: 15px;
+    }
+
+    #projectSubtitle {
+        font-size: 1.9rem;
+    }
+
+    .projectBlurb {
+        font-family: 'Dosis';
+        color: var(--nlv-white);
+        width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
     }
 
     .columnTitle{
@@ -43,6 +60,8 @@
     .columnDetails {
         width: 100%;
         text-align: justify;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
     }
 
     .button{
@@ -90,7 +109,6 @@
 }
 
 #projectSubtitle {
-    font-size: 1.5rem;
     display: block;
     color: var(--nlv-cyan);
     font-style: italic;
@@ -102,13 +120,12 @@
 
 .columnTitle{
     color: var(--nlv-cyan);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     height: 100%;
 }
 
 .columnDetails {
     color: var(--nlv-white);
-    font-size: 1.1rem;
     font-family: 'Dosis';
 }
 
