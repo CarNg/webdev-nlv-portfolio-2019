@@ -81,7 +81,7 @@
     .projectBrief {
         height: 335px;
         display: block;
-        margin-bottom: 15px;
+        margin: 10px auto;
     }
 
     .background {
