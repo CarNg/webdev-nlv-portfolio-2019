@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import style from '../ProjectPage/ProjectPage.module.css'
 import ProjectImages from '../ProjectImages/ProjectImages'
+import MediaQuery from 'react-responsive';
+
 
 export default class ProjectPage extends Component {
     constructor(props){
@@ -78,9 +80,11 @@ export default class ProjectPage extends Component {
                     <span id={style.projectSubtitle}>{this.props.projectRole}</span>
                     <br/>
                     <div id={style.projectDetails}>
-                        <div className={style.projectBlurb}>
-                            {projectBlurb}
-                        </div>
+                        <MediaQuery query="(max-device-width: 767px)">
+                            <div className={style.projectBlurb}>
+                                {projectBlurb}
+                            </div>
+                        </MediaQuery>
                         {details}
                     </div>
                     <br/>
