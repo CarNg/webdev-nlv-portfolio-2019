@@ -33,6 +33,10 @@ html, body, #root {
     font-size: 15px;
   }
 
+  .pageWrapper{
+    width: 80%;
+  }
+
   .pageWrapper::-webkit-scrollbar {
     width: 5px;
   }
@@ -67,6 +71,10 @@ html, body, #root {
 @media only screen and (max-width: 767px) {
   html, body, #root {
     font-size: 11px;
+  }
+
+  .pageWrapper{
+    width: 90%;
   }
 
   .pageWrapper::-webkit-scrollbar {
@@ -114,7 +122,6 @@ body {
 }
 
 .pageWrapper{
-  width: 80%;
   height: calc(100% - 85px);
   overflow: auto;
   margin: 0px auto;

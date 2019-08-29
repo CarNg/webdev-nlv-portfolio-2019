@@ -34,7 +34,7 @@
 
 @media only screen and (max-width: 767px) {
     #infoWrapper {
-        width: calc(100% - 40px);
+        width: calc(100% - 30px);
         padding: 15px;
     }
 
@@ -60,13 +60,13 @@
     .columnDetails {
         width: 100%;
         text-align: justify;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 1.6rem;
     }
 
     .button{
         margin: 10px 0px 0px 5px;
-        padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+        padding: 0.5rem 0.5rem 0.4rem 0.7rem;
     }
 }
 

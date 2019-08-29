@@ -88,26 +88,37 @@ export default class ProjectBriefs extends Component {
             if(this.props.filter === "" || this.props.filter === project.type){
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
-                    <div style={project.background} className={style.background} onClick={() => (
-                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
-                    )}/>
+                    <MediaQuery query="(min-device-width: 768px)"> 
+                        <div style={project.background} className={style.background} />
 
-                    <div className={`${style.projectInfo} ${colorCode}`} onClick={() => (
-                        this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
-                    )}>
-                        <span className={style.projectTitle}>{project.title}</span>
-                        <span className={style.projectRole}>{project.role}</span>
-                        <div className={style.blurb}>
-                            <p>{project.intro}{keyList}</p>
-                        </div>
-                        <div className={style.readMore}>
-                            <div className={[style.button, "button"].join(' ')}  onClick={() => (
-                                this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
-                            )} >
-                                Learn More
+                        <div className={`${style.projectInfo} ${colorCode}`}>
+                            <span className={style.projectTitle}>{project.title}</span>
+                            <span className={style.projectRole}>{project.role}</span>
+                            <div className={style.blurb}>
+                                <p>{project.intro}{keyList}</p>
+                            </div>
+                            <div className={style.readMore}>
+                                <div className={[style.button, "button"].join(' ')}  onClick={() => (
+                                    this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                                )} >
+                                    Learn More
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </MediaQuery>
+
+                    <MediaQuery query="(max-device-width: 767px)">
+                        <div style={project.background} className={style.background} onClick={() => (
+                            this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                        )}/>
+
+                        <div className={`${style.projectInfo} ${colorCode}`} onClick={() => (
+                            this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                        )}>
+                            <span className={style.projectTitle}>{project.title}</span>
+                            <span className={style.projectRole}>{project.role}</span>
+                        </div>
+                    </MediaQuery>
                 </div>;
             }
             else if(this.props.filter === "Games" && (project.type === "Digital" || project.type === "Analog")){
@@ -116,7 +127,7 @@ export default class ProjectBriefs extends Component {
                     <div style={project.background} className={style.background} onClick={() => (
                         this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
                     )}/>
-
+                    
                     <div className={`${style.projectInfo} ${colorCode}`} onClick={() => (
                         this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
                     )}>
@@ -136,48 +147,24 @@ export default class ProjectBriefs extends Component {
 
         return (
             <React.Fragment>
-                <MediaQuery query="(min-device-width: 768px)">
-                    <Modal 
-                        id="projectModal"
-                        visible={this.state.modalVisible}
-                        width="85%"
-                        height="85%"
-                        effect="fadeInUp"
-                        onClickAway={() => this.closeModal()}
-                    >
-                        <ProjectPage 
-                            projectTitle={this.state.projectTitle} 
-                            projectRole={this.state.projectRole} 
-                            projectDetails={this.state.projectDetails} 
-                            projectSlideshow={this.state.projectSlideshow} 
-                            projectLink={this.state.projectLink}
-                            projectBlurb={this.state.projectBlurb}
-                            onCloseClick={this.closeModal}
-                        />
-                    </Modal>
-                </MediaQuery>
-                
-                <MediaQuery query="(max-device-width: 767px)">
-                    <Modal 
-                        id="projectModal"
-                        visible={this.state.modalVisible}
-                        width="90%"
-                        height="90%"
-                        effect="fadeInUp"
-                        onClickAway={() => this.closeModal()}
-                    >
-                        <ProjectPage 
-                            projectTitle={this.state.projectTitle} 
-                            projectRole={this.state.projectRole} 
-                            projectDetails={this.state.projectDetails} 
-                            projectSlideshow={this.state.projectSlideshow} 
-                            projectLink={this.state.projectLink}
-                            projectBlurb={this.state.projectBlurb}
-                            onCloseClick={this.closeModal}
-                        />
-                    </Modal>
-                </MediaQuery>
-                
+                <Modal 
+                    id="projectModal"
+                    visible={this.state.modalVisible}
+                    width="85%"
+                    height="85%"
+                    effect="fadeInUp"
+                    onClickAway={() => this.closeModal()}
+                >
+                    <ProjectPage 
+                        projectTitle={this.state.projectTitle} 
+                        projectRole={this.state.projectRole} 
+                        projectDetails={this.state.projectDetails} 
+                        projectSlideshow={this.state.projectSlideshow} 
+                        projectLink={this.state.projectLink}
+                        projectBlurb={this.state.projectBlurb}
+                        onCloseClick={this.closeModal}
+                    />
+                </Modal>                
                     
                 <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
                     {projects}        
