@@ -137,7 +137,7 @@ class Header extends React.Component {
 						</div>
 					</div>
 
-					<Link to ="/"><img className={style.logo} src={logo} alt="Night Light Visuals Logo"/></Link>
+					<Link to ="/"><img className={style.logo} src={logo} alt="Night Light Visuals Logo" onClick={this.handleClick.bind(this)} /></Link>
 
 					<div id={style.burgerClosed}>
 						<HamburgerMenu
