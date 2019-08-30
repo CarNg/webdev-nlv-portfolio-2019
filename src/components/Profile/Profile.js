@@ -21,7 +21,7 @@ class Profile extends React.PureComponent {
                         <p>
                             <span style={{color: "var(--nlv-cyan)", fontSize: "1.8rem"}}>Hi! I'm Carmen. Welcome to my portfolio!</span> 
                             <br/>
-                            I'm a web developer by profession and have been for the last 3 years. With my viscom background, I focus primarly on front-end development but I've done some full stack work too. I'm also an avid board game player and game designer so you'll so you'll find some game projects too. I'm always eager to learn new skills and gain experience so stay tuned while I continue to grow this portfolio and my resume.
+                            I'm a web developer by profession and have been for the last 3 years. With my viscom background, I focus primarly on front-end development but I've done some full stack work too. I'm also an avid board game player and game designer so you'll find some game projects too. I'm always eager to learn new skills and gain experience so stay tuned while I continue to grow this portfolio and my resume.
                         </p>
                     </div>
                 </div>
