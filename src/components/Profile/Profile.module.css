@@ -43,6 +43,10 @@
     margin: 0px auto;
 }
 
+#profileText p {
+    margin-bottom: 8px;
+}
+
 #profile {
     width: 100%;
     display: block;

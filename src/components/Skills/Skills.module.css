@@ -1,29 +1,48 @@
 @media only screen and (min-width: 768px) {
+    #skillsWrapper{
+        width: 60%;
+        min-width: 450px;
+    }
+
     .skillList{
         display: inline-block;
-        width: calc(50% - 20px);
+        width: calc(33% - 20px);
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 767px) {
+    #skillsWrapper{
+        width: 90%;
+    }
+
     .skillList{
         display: block;
         width: 90%;
+        font-size: 15px;
     }
 }
 
 #skillsWrapper{
-    width: 90%;
-    margin: 0px auto;
+    margin: 0px auto 25px auto;
     display: block;
 }
 
 .skillList{
     list-style-type: none;
     padding: 0px 10px;
+    color: var(--nlv-white);
+    font-family: 'Dosis';
+    text-align: center;
 }
 
-.skillList li{
+.skillTitle{
+    color: var(--nlv-cyan);
+    font-size: 1.8rem;
+}
+
+/*PREVIOUSLY USED ANIMATED SKILLS*/
+/*.skillList li{
     color: var(--nlv-black);
     margin-bottom: 13px;
     background: var(--nlv-white);
@@ -104,4 +123,4 @@
 @keyframes bootstrap {
     0% {width: 0%}
     100% {width: 85%}
-}
+}*/
