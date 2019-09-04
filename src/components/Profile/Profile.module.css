@@ -5,7 +5,7 @@
         width: 150px;
         height: 150px;
         display: block;
-        margin: 25px auto;
+        margin: 0px auto 20px auto;
     }
 
     #profileText{
@@ -22,7 +22,7 @@
         width: 100px;
         height: 100px;
         display: block;
-        margin: 10px auto;
+        margin: 15px auto;
     }
 
     #profileText{
@@ -45,6 +45,7 @@
 
 #profileText p {
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 #profile {
