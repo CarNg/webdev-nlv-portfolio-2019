@@ -193,3 +193,7 @@ a:hover{
 .hide {
   display: none !important;
 }
+
+.ril__caption, .ril__toolbar {
+  background: none !important;
+}
