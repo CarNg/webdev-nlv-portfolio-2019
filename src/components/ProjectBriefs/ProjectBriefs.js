@@ -145,6 +145,7 @@ export default class ProjectBriefs extends Component {
             )
         }
 
+     
         return (
             <React.Fragment>
                 <Modal 
@@ -166,7 +167,7 @@ export default class ProjectBriefs extends Component {
                     />
                 </Modal>                
                     
-                <div id={style.scrollWrapper} onWheel={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}}>
+                <div id={style.scrollWrapper} onWheelCapture={(e) => {document.getElementById(style.scrollWrapper).scrollBy(e.deltaY, 0)}} >
                     {projects}        
                 </div>
             </React.Fragment>
