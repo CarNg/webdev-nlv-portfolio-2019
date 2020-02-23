@@ -13,7 +13,6 @@ export default function Skills() {
                             F&B Industry Site<br/>
                             Custom ERP Sites<br/>
                             POS Web App<br/>
-                            Custom Company Websites<br/>
                             iOS Games<br/>
                             Board Games
                             <br/>
