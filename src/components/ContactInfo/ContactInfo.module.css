@@ -63,6 +63,10 @@
     border: 1.5px solid var(--nlv-cyan);
 }
 
+.socialColumn:hover {
+    text-decoration: none;
+}
+
 .socialIcon > img {
     border: 1.5px solid var(--nlv-red);
     border-radius: 50%;
@@ -86,9 +90,5 @@
     font-size: 1.2rem;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    text-decoration: none !important;
-}
-
-.socialLabel:hover{
     text-decoration: none !important;
 }
