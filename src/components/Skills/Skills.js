@@ -10,9 +10,10 @@ export default function Skills() {
                     <div className={style.skillList}>
                         <span className={style.skillTitle}>Projects</span>
                             <br/>
+                            F&B Industry Site<br/>
                             Custom ERP Sites<br/>
                             POS Web App<br/>
-                            OpenCart Sites<br/>
+                            Custom Company Websites<br/>
                             iOS Games<br/>
                             Board Games
                             <br/>
@@ -21,9 +22,9 @@ export default function Skills() {
                     <div className={style.skillList}>
                         <span className={style.skillTitle}>Languages</span>
                             <br/>
-                            HTML5<br/>
-                            CSS3<br/>
                             JavaScript<br/>
+                            C#<br/>
+                            Less<br/>
                             English<br/>
                             Cantonese
                             <br/>
@@ -32,10 +33,10 @@ export default function Skills() {
                     <div className={style.skillList}>
                         <span className={style.skillTitle}>Tools</span>
                             <br/>
-                            React.js<br/>
-                            Bootstrap<br/>
-                            jQuery<br/>
-                            Github<br/>
+                            Vue.js<br/>
+                            .NET<br/>
+                            React<br/>
+                            Git<br/>
                             Photoshop
                             <br/>
                     </div>

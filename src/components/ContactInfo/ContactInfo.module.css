@@ -90,5 +90,5 @@
 }
 
 .socialLabel:hover{
-    text-decoration: underline var(--nlv-cyan) !important;
+    text-decoration: none !important;
 }

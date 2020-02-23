@@ -1,4 +1,27 @@
-[
+[   
+    {
+        "id": "202001",
+        "background": {"backgroundImage":"url(images/briefOpenRice.jpg)"},
+        "title": "OpenRice",
+        "role": "Web Developer",
+        "type": "Web",
+        "intro": "OpenRice is Hong Kong's leading dining guide that is always growing with features such as take away, scan to order and reservations.",
+        "link": "https://www.openrice.com/en/hongkong/",
+        "slideshow":{
+            "OpenRice Image 1": "/images/sliderOr1.png",
+            "OpenRice Image 2": "/images/sliderOr2.png",
+            "OpenRice Image 3": "/images/sliderOr3.png",
+            "OpenRice Image 4": "/images/sliderOr4.png",
+            "OpenRice Image 5": "/images/sliderOr5.png"
+        },
+        "projectKey": {
+            "Created using":"Vue.js & .NET",
+            "For": "OpenRice"
+        },
+        "projectDetails": {
+            "Summary":"OpenRice is Hong Kong's most popular dining guide. With over 6 million users, the site hosts restaurant information, reviews and ratings not only in Hong Kong but in a number of countries across Asia. OpenRice is always updating and providing a number of features that help make both diners' and restaurateurs' experience easier. Take away ordering, dine-in scan to order, online reservations and remote queuing are just some of the features OpenRice has to offer."
+        }
+    },
     {
         "id": "201908",
         "background": {"backgroundImage":"url(images/briefNlv.jpg)"},
