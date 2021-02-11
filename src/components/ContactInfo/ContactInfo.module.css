@@ -23,7 +23,7 @@
     line-height: 4.5rem;
     font-weight: 500;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
 #email:hover{
@@ -73,7 +73,7 @@
     padding: 12px;
     width: 100%;
     transform: translateX(calc(-50% + 25px));
-    transition: all 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
 }
 
 .socialIcon{
@@ -83,12 +83,11 @@
 }
 
 .socialIcon:hover > img{
-    border: 1.5px solid var(--nlv-cyan);
+    border-color: var(--nlv-cyan);
 }
 
 .socialLabel {
     font-size: 1.2rem;
     text-align: center;
-    transition: all 0.3s ease-in-out;
     text-decoration: none !important;
 }
