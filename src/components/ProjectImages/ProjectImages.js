@@ -45,7 +45,7 @@ export default class ProjectBriefs extends Component {
         });
 
         var imagesArray = Object.values(slideshowObject).filter(function(key) {
-            return key.endsWith(".jpg");
+            return key.endsWith(".jpg") || key.endsWith(".png");
         });
 
         const slideshow = slideshowArray.map((slide, index, array) => {
