@@ -7,7 +7,7 @@
 		"title": "OpenRice Biz",
 		"role": "Web Developer",
 		"type": "Web",
-		"intro": "",
+		"intro": "OpenRice Biz is the business side of OpenRice for restauranteurs. With a number of services available to help restauranteurs manage their business, OpenRice Biz site presents all the information you need to get started.",
 		"link": "https://biz.openrice.com/hk/en/index",
 		"slideshow": {
 			"OpenRice Biz Image 1": "/images/sliderOrBiz1.jpg",
@@ -22,7 +22,7 @@
 			"For": "OpenRice Ltd"
 		},
 		"projectDetails": {
-			"Summary": "OpenRice Biz is the business side of OpenRice for restauranteurs. With a number of services available to help restauranteurs manage their business, OpenRice Biz site presents all the information you need to get started."
+			"Summary": "OpenRice Biz is the business side of OpenRice for restauranteurs and OpenRice Biz site presents all the information users need to get started in a responsive manner. With new services being added regularly to OpenRice, OpenRice Biz site is updated to keep up. A revamped homepage and a page for market insights are just some of the new pages added recently that I've worked on."
 		}
 	},
 	{
