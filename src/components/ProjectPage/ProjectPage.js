@@ -21,7 +21,7 @@ export default class ProjectPage extends Component {
             return [key, projectDetailsObj[key]];
         });
     
-        const details = detailsArray.map((detail, index, array) => {
+        const details = detailsArray.map((detail, index) => {
             return (
                 <React.Fragment key={index}>
                     <div className={style.columnTitle}>

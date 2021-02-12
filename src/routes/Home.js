@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className="pageWrapper">
             <Welcome />
-            <Loading loadingText="Shhhh" hideShow="hide" />
+            <Loading loadingText="Setting up.." hideShow="hide" />
         </div>
     )
 }

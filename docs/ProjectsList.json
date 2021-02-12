@@ -1,5 +1,31 @@
 [
 	{
+		"id": "202102",
+		"background": {
+			"backgroundImage": "url(images/briefOpenRiceBiz.jpg)"
+		},
+		"title": "OpenRice Biz",
+		"role": "Web Developer",
+		"type": "Web",
+		"intro": "",
+		"link": "https://biz.openrice.com/hk/en/index",
+		"slideshow": {
+			"OpenRice Biz Image 1": "/images/sliderOrBiz1.jpg",
+			"OpenRice Biz Image 2": "/images/sliderOrBiz2.jpg",
+			"OpenRice Biz Image 3": "/images/sliderOrBiz3.jpg",
+			"OpenRice Biz Image 4": "/images/sliderOrBiz4.jpg",
+			"OpenRice Biz Image 5": "/images/sliderOrBiz5.jpg",
+			"OpenRice Biz Image 6": "/images/sliderOrBiz6.jpg"
+		},
+		"projectKey": {
+			"Developed using": ".NET - Less",
+			"For": "OpenRice Ltd"
+		},
+		"projectDetails": {
+			"Summary": "OpenRice Biz is the business side of OpenRice for restauranteurs. With a number of services available to help restauranteurs manage their business, OpenRice Biz site presents all the information you need to get started."
+		}
+	},
+	{
 		"id": "202001",
 		"background": {
 			"backgroundImage": "url(images/briefOpenRice.jpg)"
@@ -10,11 +36,10 @@
 		"intro": "OpenRice is a food and restaurant guide website that operates in a number of countries in Asia and is Hong Kong's leading dining guide. OpenRice also has growing features such as take away, scan to order and reservations.",
 		"link": "https://www.openrice.com/en/hongkong/",
 		"slideshow": {
-			"OpenRice Image 1": "/images/sliderOr1.png",
-			"OpenRice Image 2": "/images/sliderOr2.png",
-			"OpenRice Image 3": "/images/sliderOr3.png",
-			"OpenRice Image 4": "/images/sliderOr4.png",
-			"OpenRice Image 5": "/images/sliderOr5.png"
+			"OpenRice Image 1": "/images/sliderOr1.jpg",
+			"OpenRice Image 2": "/images/sliderOr2.jpg",
+			"OpenRice Image 3": "/images/sliderOr3.jpg",
+			"OpenRice Image 4": "/images/sliderOr4.jpg"
 		},
 		"projectKey": {
 			"Developed using": "Vue.js - .NET - Stylus - Less",
@@ -38,7 +63,8 @@
 			"Night Light Visuals Image 1": "/images/sliderNlv1.jpg",
 			"Night Light Visuals Image 2": "/images/sliderNlv2.jpg",
 			"Night Light Visuals Image 3": "/images/sliderNlv3.jpg",
-			"Night Light Visuals Image 4": "/images/sliderNlv4.jpg"
+			"Night Light Visuals Image 4": "/images/sliderNlv4.jpg",
+			"Night Light Visuals Image 5": "/images/sliderNlv5.jpg"
 		},
 		"projectKey": {
 			"Developed using": "React",

@@ -10,7 +10,7 @@ export default function Welcome() {
             <MediaQuery query="(min-device-width: 768px)">
                     <h1>Carmen Ng</h1>
                     <h3 style={{paddingRight: "80px"}}>Web Developer<span style={{color: "var(--nlv-red)", fontSize: "4rem"}}>/</span>Game Designer</h3>
-                    <h5>Originally based in Ireland, now based in Hong Kong. Orginally a web designer, now a web developer.</h5>
+                    <h5>Originally based in Ireland, now based in Hong Kong. Orginally a designer, now a developer.</h5>
                     <div id={style.buttonsWrapper}>
                         <a href={resume} target="_blank" rel="noopener noreferrer">
                             <div className={[style.button, "button"].join(' ')} style={{marginLeft: "0px"}}>
@@ -27,7 +27,7 @@ export default function Welcome() {
             <MediaQuery query="(max-device-width: 767px)">
                 <h1>Carmen Ng</h1>
                 <h3 style={{paddingRight: "30px"}}>Web Developer<span style={{color: "var(--nlv-red)"}}>/</span>Game Designer</h3>
-                <h5>Originally based in Ireland, now based in Hong Kong. <br/> Orginally a web designer, now a web developer.</h5>
+                <h5>Originally based in Ireland, now based in Hong Kong. <br/> Orginally a designer, now a developer.</h5>
                 <div id={style.buttonsWrapper}>
                     <a href="mailto:carmenng.media@gmail.com?Subject=Night%20Light%20Visuals">
                         <div className={[style.button, "button"].join(' ')} style={{margin: "20px 0px"}}>
