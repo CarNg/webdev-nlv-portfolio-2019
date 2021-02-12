@@ -88,6 +88,10 @@
         padding-top: 100%;
     }
 
+    .background:hover {
+        cursor: pointer;
+    }
+
     .projectInfo {
         top: 250px;
     }

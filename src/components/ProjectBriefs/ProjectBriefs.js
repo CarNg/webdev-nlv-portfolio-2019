@@ -89,7 +89,9 @@ export default class ProjectBriefs extends Component {
                 projectBrief = 
                 <div key={project.id} className={style.projectBrief}>
                     <MediaQuery query="(min-device-width: 768px)"> 
-                        <div style={project.background} className={style.background} />
+                        <div style={project.background} className={style.background} onClick={() => (
+                            this.openModal(project.slideshow, project.title, project.role, project.projectDetails, project.link, project.projectKey)
+                        )}/>
 
                         <div className={`${style.projectInfo} ${colorCode}`}>
                             <span className={style.projectTitle}>{project.title}</span>
@@ -152,7 +154,7 @@ export default class ProjectBriefs extends Component {
                     id="projectModal"
                     visible={this.state.modalVisible}
                     width="85%"
-                    height="85%"
+                    maxHeight="85%"
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >
